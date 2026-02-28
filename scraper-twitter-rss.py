@@ -171,7 +171,7 @@ Format JSON strict (ne retourne QUE le JSON):
     
     try:
         # Google Gemini API
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
         
         headers = {
             'Content-Type': 'application/json',
