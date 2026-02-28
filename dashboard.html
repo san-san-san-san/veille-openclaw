@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille OpenClaw & Claude Code</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 36px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.95);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 48px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+        
+        .section {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-icon {
+            font-size: 28px;
+        }
+        
+        .item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .item:hover {
+            transform: translateX(5px);
+            transition: transform 0.2s;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+        
+        .item-author {
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .item-date {
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .item-content {
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .item-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .keyword-tag {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .last-update {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        
+        .summary-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .summary-text {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .key-points {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .key-points h3 {
+            margin-bottom: 15px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .key-points ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .key-points li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .key-points li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .trends {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .trends h3 {
+            margin-bottom: 15px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .trend-tag {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        
+        .refresh-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-right: 10px;
+            box-shadow: 0 5px 20px rgba(102,126,234,0.4);
+        }
+        
+        .refresh-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 25px rgba(102,126,234,0.6);
+            transition: all 0.2s;
+        }
+        
+        .refresh-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .scrape-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 15px;
+            box-shadow: 0 5px 20px rgba(245,87,108,0.4);
+        }
+        
+        .scrape-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 25px rgba(245,87,108,0.6);
+            transition: all 0.2s;
+        }
+        
+        .scrape-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .status-message {
+            display: inline-block;
+            margin-left: 15px;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .status-running {
+            background: #fff3cd;
+            color: #856404;
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Veille OpenClaw & Claude Code</h1>
+            <p class="subtitle">Dernières actualités, tweets et discussions • Mis à jour quotidiennement</p>
+            <div>
+                <button class="refresh-btn" onclick="loadData()" id="refresh-btn">🔄 Rafraîchir</button>
+                <button class="scrape-btn" onclick="triggerScrape()" id="scrape-btn">🚀 Lancer Scraping</button>
+                <span id="status-message" class="status-message" style="display:none;"></span>
+            </div>
+        </header>
+        
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="stat-twitter">-</div>
+                <div class="stat-label">🐦 Tweets</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="stat-reddit">-</div>
+                <div class="stat-label">🔴 Reddit</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="stat-hn">-</div>
+                <div class="stat-label">🟠 Hacker News</div>
+            </div>
+        </div>
+        
+        <!-- Résumé IA -->
+        <div class="section" id="summary-section" style="display:none; margin-bottom: 30px;">
+            <h2 class="section-title">
+                <span class="section-icon">🤖</span>
+                Résumé & Insights
+            </h2>
+            <div id="summary-content"></div>
+        </div>
+        
+        <div class="content-grid">
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🐦</span>
+                    Twitter
+                </h2>
+                <div id="twitter-content" class="loading">Chargement...</div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🔴</span>
+                    Reddit
+                </h2>
+                <div id="reddit-content" class="loading">Chargement...</div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🟠</span>
+                    Hacker News
+                </h2>
+                <div id="hn-content" class="loading">Chargement...</div>
+            </div>
+        </div>
+        
+        <div class="last-update" id="last-update"></div>
+    </div>
+    
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('veille-latest.json');
+                const data = await response.json();
+                
+                // Stats
+                document.getElementById('stat-twitter').textContent = data.twitter.length;
+                document.getElementById('stat-reddit').textContent = data.reddit.length;
+                document.getElementById('stat-hn').textContent = data.hackernews.length;
+                
+                // Résumé IA
+                if (data.summary && (data.summary.summary || data.summary.key_points || data.summary.trends)) {
+                    const summarySection = document.getElementById('summary-section');
+                    const summaryContent = document.getElementById('summary-content');
+                    
+                    let summaryHTML = '<div class="summary-box">';
+                    
+                    // Résumé général
+                    if (data.summary.summary) {
+                        summaryHTML += `<div class="summary-text">${escapeHtml(data.summary.summary)}</div>`;
+                    }
+                    
+                    // Points clés
+                    if (data.summary.key_points && data.summary.key_points.length > 0) {
+                        summaryHTML += '<div class="key-points"><h3>📌 Points Clés</h3><ul>';
+                        data.summary.key_points.forEach(point => {
+                            summaryHTML += `<li>${escapeHtml(point)}</li>`;
+                        });
+                        summaryHTML += '</ul></div>';
+                    }
+                    
+                    // Tendances
+                    if (data.summary.trends && data.summary.trends.length > 0) {
+                        summaryHTML += '<div class="trends"><h3>📈 Tendances</h3>';
+                        data.summary.trends.forEach(trend => {
+                            summaryHTML += `<span class="trend-tag">${escapeHtml(trend)}</span>`;
+                        });
+                        summaryHTML += '</div>';
+                    }
+                    
+                    summaryHTML += '</div>';
+                    
+                    summaryContent.innerHTML = summaryHTML;
+                    summarySection.style.display = 'block';
+                } else {
+                    document.getElementById('summary-section').style.display = 'none';
+                }
+                
+                // Twitter
+                const twitterHTML = data.twitter.length > 0 
+                    ? data.twitter.map(tweet => `
+                        <div class="item">
+                            <div class="item-header">
+                                <span class="item-author">${escapeHtml(tweet.username)}</span>
+                                <span class="item-date">${tweet.date}</span>
+                            </div>
+                            <div class="item-content">${escapeHtml(tweet.content)}</div>
+                            <span class="keyword-tag">${escapeHtml(tweet.keyword)}</span>
+                        </div>
+                    `).join('')
+                    : '<div class="empty-state">Aucun tweet trouvé</div>';
+                
+                document.getElementById('twitter-content').innerHTML = twitterHTML;
+                
+                // Reddit
+                const redditHTML = data.reddit.length > 0
+                    ? data.reddit.map(post => `
+                        <div class="item">
+                            <div class="item-header">
+                                <span class="item-author">r/${escapeHtml(post.subreddit)}</span>
+                            </div>
+                            <div class="item-content">
+                                <strong>${escapeHtml(post.title)}</strong>
+                            </div>
+                            <div class="item-meta">
+                                <span>👤 ${escapeHtml(post.author)}</span>
+                                <span>⬆️ ${post.score}</span>
+                                <span>💬 ${post.comments}</span>
+                            </div>
+                            <span class="keyword-tag">${escapeHtml(post.keyword)}</span>
+                        </div>
+                    `).join('')
+                    : '<div class="empty-state">Aucun post trouvé</div>';
+                
+                document.getElementById('reddit-content').innerHTML = redditHTML;
+                
+                // Hacker News
+                const hnHTML = data.hackernews.length > 0
+                    ? data.hackernews.map(item => `
+                        <div class="item">
+                            <div class="item-content">
+                                <strong>${escapeHtml(item.title)}</strong>
+                            </div>
+                            <div class="item-meta">
+                                <span>👤 ${escapeHtml(item.author)}</span>
+                                <span>⬆️ ${item.points}</span>
+                                <span>💬 ${item.comments}</span>
+                            </div>
+                            <span class="keyword-tag">${escapeHtml(item.keyword)}</span>
+                        </div>
+                    `).join('')
+                    : '<div class="empty-state">Aucun item trouvé</div>';
+                
+                document.getElementById('hn-content').innerHTML = hnHTML;
+                
+                // Date mise à jour
+                const date = new Date(data.date);
+                document.getElementById('last-update').textContent = 
+                    `Dernière mise à jour : ${date.toLocaleDateString('fr-FR')} à ${date.toLocaleTimeString('fr-FR')}`;
+                
+            } catch (error) {
+                console.error('Erreur chargement données:', error);
+                document.getElementById('twitter-content').innerHTML = 
+                    '<div class="empty-state">❌ Erreur de chargement</div>';
+            }
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        async function triggerScrape() {
+            const scrapeBtn = document.getElementById('scrape-btn');
+            const statusMsg = document.getElementById('status-message');
+            
+            // Désactiver bouton
+            scrapeBtn.disabled = true;
+            
+            // Afficher statut "en cours"
+            statusMsg.textContent = '⏳ Scraping en cours...';
+            statusMsg.className = 'status-message status-running';
+            statusMsg.style.display = 'inline-block';
+            
+            try {
+                const response = await fetch('/api/scrape', {
+                    method: 'POST'
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    // Succès
+                    statusMsg.textContent = '✅ ' + data.message;
+                    statusMsg.className = 'status-message status-success';
+                    
+                    // Recharger données après 60 secondes
+                    setTimeout(() => {
+                        loadData();
+                        statusMsg.style.display = 'none';
+                    }, 60000);
+                } else {
+                    // Erreur
+                    statusMsg.textContent = '❌ ' + data.message;
+                    statusMsg.className = 'status-message status-error';
+                }
+                
+            } catch (error) {
+                // Erreur réseau
+                statusMsg.textContent = '❌ Mode local : utilisez python3 scraper-twitter-v2.py';
+                statusMsg.className = 'status-message status-error';
+                
+                console.log('Mode local détecté - API non disponible');
+            }
+            
+            // Réactiver bouton après 5 secondes
+            setTimeout(() => {
+                scrapeBtn.disabled = false;
+            }, 5000);
+        }
+        
+        async function checkScrapingStatus() {
+            try {
+                const response = await fetch('/api/status');
+                const status = await response.json();
+                
+                const statusMsg = document.getElementById('status-message');
+                
+                if (status.running) {
+                    statusMsg.textContent = '⏳ Scraping en cours...';
+                    statusMsg.className = 'status-message status-running';
+                    statusMsg.style.display = 'inline-block';
+                }
+            } catch (error) {
+                // Mode local, pas de serveur
+            }
+        }
+        
+        // Charger au démarrage
+        loadData();
+        checkScrapingStatus();
+        
+        // Auto-refresh toutes les 5 minutes
+        setInterval(loadData, 5 * 60 * 1000);
+        
+        // Vérifier statut scraping toutes les 10 secondes
+        setInterval(checkScrapingStatus, 10 * 1000);
+    </script>
+</body>
+</html>
