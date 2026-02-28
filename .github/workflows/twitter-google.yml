@@ -1,0 +1,40 @@
+name: Veille Twitter Google
+
+on:
+  schedule:
+    # Tous les jours à 9h (heure Paris = UTC+1, donc 8h UTC)
+    - cron: '0 8 * * *'
+  
+  # Permet lancement manuel depuis GitHub
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+      
+      - name: Run Twitter Google scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scraper-twitter-google.py
+      
+      - name: Commit and push results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add veille-*.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "🐦 Veille Twitter Google $(date +'%Y-%m-%d')"
+          git push
