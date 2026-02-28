@@ -123,15 +123,15 @@ def scrape_account_multi_instance(username):
     return []
 
 def generate_ai_summary(tweets):
-    """Génère un résumé IA en français via Claude"""
+    """Génère un résumé IA en français via Google Gemini"""
     
     import os
     
-    # Check for Anthropic API key
-    api_key = os.environ.get('ANTHROPIC_API_KEY')
+    # Check for Google API key (Gemini)
+    api_key = os.environ.get('GOOGLE_API_KEY')
     
     if not api_key:
-        print("⚠️ ANTHROPIC_API_KEY not found - skipping AI summary")
+        print("⚠️ GOOGLE_API_KEY not found - skipping AI summary")
         return {
             'summary': 'Résumé IA non disponible (clé API manquante)',
             'key_points': [],
@@ -170,25 +170,31 @@ Format JSON strict (ne retourne QUE le JSON):
 """
     
     try:
+        # Google Gemini API
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={api_key}"
+        
         headers = {
             'Content-Type': 'application/json',
-            'x-api-key': api_key,
-            'anthropic-version': '2023-06-01'
         }
         
         data = {
-            'model': 'claude-3-5-sonnet-20241022',
-            'max_tokens': 1024,
-            'messages': [
+            'contents': [
                 {
-                    'role': 'user',
-                    'content': prompt
+                    'parts': [
+                        {
+                            'text': prompt
+                        }
+                    ]
                 }
-            ]
+            ],
+            'generationConfig': {
+                'temperature': 0.7,
+                'maxOutputTokens': 1024,
+            }
         }
         
         response = requests.post(
-            'https://api.anthropic.com/v1/messages',
+            url,
             headers=headers,
             json=data,
             timeout=30
@@ -196,13 +202,13 @@ Format JSON strict (ne retourne QUE le JSON):
         
         if response.status_code == 200:
             result = response.json()
-            content = result['content'][0]['text']
+            content = result['candidates'][0]['content']['parts'][0]['text']
             
             # Extract JSON from response
             json_match = re.search(r'\{.*\}', content, re.DOTALL)
             if json_match:
                 summary_data = json.loads(json_match.group())
-                print("✓ AI summary generated")
+                print("✓ AI summary generated (Gemini)")
                 return summary_data
             else:
                 return {
@@ -211,9 +217,10 @@ Format JSON strict (ne retourne QUE le JSON):
                     'trends': []
                 }
         else:
-            print(f"⚠️ Anthropic API error: {response.status_code}")
+            print(f"⚠️ Gemini API error: {response.status_code}")
+            print(f"Response: {response.text}")
             return {
-                'summary': f'Erreur API Anthropic (code {response.status_code})',
+                'summary': f'Erreur API Gemini (code {response.status_code})',
                 'key_points': [],
                 'trends': []
             }
