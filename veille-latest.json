@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T10:02:18.349484",
+  "date": "2026-02-28T10:04:10.060080",
   "twitter": [
     {
       "username": "bcherny",
@@ -143,7 +143,7 @@
     }
   ],
   "summary": {
-    "summary": "Résumé IA non disponible (clé API manquante)",
+    "summary": "Erreur API Gemini (code 404)",
     "key_points": [],
     "trends": []
   },
