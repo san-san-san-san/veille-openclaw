@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-28T09:46:10.658042",
+  "date": "2026-02-28T10:02:18.349484",
   "twitter": [
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Bun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredClone, Buffer.slice, path.parse\n\nThanks 11 contributors!\nhttps://bun.com/blog/bun-v1.3.10\nBun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredCl",
-      "date": "Thu, 26 Feb 2026 09:04:36 GMT",
-      "url": "https://twitter.com/bunjavascript/status/2026946487599697948#m",
+      "content": "RT by @bcherny: A statement on the comments from Secretary of War Pete Hegseth. \n\nhttps://anthropic.com/news/statement-comments-secretary-war\nA statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…\n",
+      "date": "Sat, 28 Feb 2026 01:24:31 GMT",
+      "url": "https://twitter.com/AnthropicAI/status/2027555481699446918#m",
       "source": "rss"
     },
     {
@@ -17,16 +17,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: A statement on the comments from Secretary of War Pete Hegseth. \n\nhttps://anthropic.com/news/statement-comments-secretary-war\nA statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…\n",
-      "date": "Sat, 28 Feb 2026 01:24:31 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2027555481699446918#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production and (2) perform straightforward, parallelizable code migrations.\nIn the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with",
-      "date": "Sat, 28 Feb 2026 00:03:04 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534984534544489#m",
+      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "date": "Sat, 28 Feb 2026 00:03:05 GMT",
+      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
       "source": "rss"
     },
     {
@@ -38,9 +31,16 @@
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "content": "R to @bcherny: /simplify\n\nUse parallel agents to improve code quality, tune code efficiency, and ensure CLAUDE.md compliance.\n\nUsage: \"hey claude make this code change then run /simplify\"\n/simplify\n\nUse parallel agents to improve code quality, tune code efficiency, and ensure CLAUDE.md compliance.\n\nUsage: \"hey claude make this code change then run /simplify\"",
       "date": "Sat, 28 Feb 2026 00:03:05 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
+      "url": "https://twitter.com/bcherny/status/2027534986178662573#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production and (2) perform straightforward, parallelizable code migrations.\nIn the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with",
+      "date": "Sat, 28 Feb 2026 00:03:04 GMT",
+      "url": "https://twitter.com/bcherny/status/2027534984534544489#m",
       "source": "rss"
     },
     {
@@ -94,6 +94,20 @@
     },
     {
       "username": "bcherny",
+      "content": "RT by @bcherny: Bun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredClone, Buffer.slice, path.parse\n\nThanks 11 contributors!\nhttps://bun.com/blog/bun-v1.3.10\nBun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredCl",
+      "date": "Thu, 26 Feb 2026 09:04:36 GMT",
+      "url": "https://twitter.com/bunjavascript/status/2026946487599697948#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: New in Cowork: scheduled tasks.\n\nClaude can now complete recurring tasks at specific times automatically: a morning brief, weekly spreadsheet updates, Friday team presentations.\nNew in Cowork: scheduled tasks.\n\nClaude can now complete recurring tasks at specific times automatically: a morning brief, weekly spreadsheet updates, Friday team presentations.\n\nVideo\n  \n",
+      "date": "Wed, 25 Feb 2026 18:08:04 GMT",
+      "url": "https://twitter.com/claudeai/status/2026720870631354429#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
       "content": "RT by @bcherny: In the spirit of building in public:\n📈 Wow this was a popular feature. We've scaled up some capacity on our end to accommodate usage. Sorry if you ran into some connectivity issues in the past few hours\n🐞 Some text may be covered on Android. We're on it.\n🐞 GH auth is required to see Code pane on mobile (you can still deeplink to your session via QR/link)\n✅ Plan mode and AskUserQuestion should be fixed\n🚧 WIP - making permissions more flexible in remote control sessions so you can ",
       "date": "Wed, 25 Feb 2026 17:42:32 GMT",
       "url": "https://twitter.com/noahzweben/status/2026714443820970038#m",
@@ -108,9 +122,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: New in Cowork: scheduled tasks.\n\nClaude can now complete recurring tasks at specific times automatically: a morning brief, weekly spreadsheet updates, Friday team presentations.\nNew in Cowork: scheduled tasks.\n\nClaude can now complete recurring tasks at specific times automatically: a morning brief, weekly spreadsheet updates, Friday team presentations.\n\nVideo\n  \n",
-      "date": "Wed, 25 Feb 2026 18:08:04 GMT",
-      "url": "https://twitter.com/claudeai/status/2026720870631354429#m",
+      "content": "R to @bcherny: The people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You've all made this better than we could on our own.\n\nLots more to do.\nThe people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You",
+      "date": "Wed, 25 Feb 2026 00:10:13 GMT",
+      "url": "https://twitter.com/bcherny/status/2026449619291627593#m",
       "source": "rss"
     },
     {
@@ -122,13 +136,6 @@
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: The people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You've all made this better than we could on our own.\n\nLots more to do.\nThe people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You",
-      "date": "Wed, 25 Feb 2026 00:10:13 GMT",
-      "url": "https://twitter.com/bcherny/status/2026449619291627593#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "RT by @bcherny: Slack has rolled out a new plugin that allows you to connect to Slack for search, messaging, document creation and more.\n\nUse this to get context from Slack into Claude Code so it has context on what you're working on or to post updates.\nSlack has rolled out a new plugin that allows you to connect to Slack for search, messaging, document creation and more.\n\nUse this to get context from Slack into Claude Code so it has context on what you're working on or to post updates.\n\nVideo\n ",
       "date": "Tue, 24 Feb 2026 23:25:36 GMT",
       "url": "https://twitter.com/trq212/status/2026438391299191026#m",
@@ -136,12 +143,12 @@
     }
   ],
   "summary": {
-    "summary": "Erreur API Anthropic (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
   "stats": {
-    "total_tweets": 19,
+    "total_tweets": 20,
     "accounts": 1
   }
 }
