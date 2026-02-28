@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T10:06:30.820523",
+  "date": "2026-02-28T10:12:22.624434",
   "twitter": [
     {
       "username": "bcherny",
@@ -143,7 +143,7 @@
     }
   ],
   "summary": {
-    "summary": "Erreur API Gemini (code 404)",
+    "summary": "Erreur API OpenRouter (code 404)",
     "key_points": [],
     "trends": []
   },
