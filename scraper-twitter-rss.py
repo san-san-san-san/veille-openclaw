@@ -252,6 +252,15 @@ def main():
     
     print(f"\n📊 Total unique tweets: {len(unique_tweets)}")
     
+    # Sort by date (most recent first)
+    try:
+        from dateutil import parser
+        unique_tweets.sort(key=lambda t: parser.parse(t.get('date', '')), reverse=True)
+        print("✓ Tweets sorted by date (most recent first)")
+    except:
+        # If dateutil not available, keep original order
+        pass
+    
     # Generate AI summary
     print("\n🤖 Generating AI summary in French...")
     summary = generate_ai_summary(unique_tweets)
