@@ -123,15 +123,15 @@ def scrape_account_multi_instance(username):
     return []
 
 def generate_ai_summary(tweets):
-    """Génère un résumé IA en français via Google Gemini"""
+    """Génère un résumé IA en français via OpenRouter"""
     
     import os
     
-    # Check for Google API key (Gemini)
-    api_key = os.environ.get('GOOGLE_API_KEY')
+    # Check for OpenRouter API key
+    api_key = os.environ.get('OPENROUTER_API_KEY')
     
     if not api_key:
-        print("⚠️ GOOGLE_API_KEY not found - skipping AI summary")
+        print("⚠️ OPENROUTER_API_KEY not found - skipping AI summary")
         return {
             'summary': 'Résumé IA non disponible (clé API manquante)',
             'key_points': [],
@@ -170,27 +170,26 @@ Format JSON strict (ne retourne QUE le JSON):
 """
     
     try:
-        # Google Gemini API
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+        # OpenRouter API (OpenAI-compatible format)
+        url = "https://openrouter.ai/api/v1/chat/completions"
         
         headers = {
+            'Authorization': f'Bearer {api_key}',
             'Content-Type': 'application/json',
+            'HTTP-Referer': 'https://github.com/veille-openclaw',
+            'X-Title': 'Veille OpenClaw Twitter'
         }
         
         data = {
-            'contents': [
+            'model': 'google/gemini-2.0-flash-exp:free',  # Modèle gratuit
+            'messages': [
                 {
-                    'parts': [
-                        {
-                            'text': prompt
-                        }
-                    ]
+                    'role': 'user',
+                    'content': prompt
                 }
             ],
-            'generationConfig': {
-                'temperature': 0.7,
-                'maxOutputTokens': 1024,
-            }
+            'temperature': 0.7,
+            'max_tokens': 1024
         }
         
         response = requests.post(
@@ -202,13 +201,13 @@ Format JSON strict (ne retourne QUE le JSON):
         
         if response.status_code == 200:
             result = response.json()
-            content = result['candidates'][0]['content']['parts'][0]['text']
+            content = result['choices'][0]['message']['content']
             
             # Extract JSON from response
             json_match = re.search(r'\{.*\}', content, re.DOTALL)
             if json_match:
                 summary_data = json.loads(json_match.group())
-                print("✓ AI summary generated (Gemini)")
+                print("✓ AI summary generated (OpenRouter)")
                 return summary_data
             else:
                 return {
@@ -217,10 +216,10 @@ Format JSON strict (ne retourne QUE le JSON):
                     'trends': []
                 }
         else:
-            print(f"⚠️ Gemini API error: {response.status_code}")
+            print(f"⚠️ OpenRouter API error: {response.status_code}")
             print(f"Response: {response.text}")
             return {
-                'summary': f'Erreur API Gemini (code {response.status_code})',
+                'summary': f'Erreur API OpenRouter (code {response.status_code})',
                 'key_points': [],
                 'trends': []
             }
