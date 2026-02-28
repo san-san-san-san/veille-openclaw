@@ -2,10 +2,7 @@ name: Veille Twitter Google
 
 on:
   schedule:
-    # Tous les jours à 9h (heure Paris = UTC+1, donc 8h UTC)
     - cron: '0 8 * * *'
-  
-  # Permet lancement manuel depuis GitHub
   workflow_dispatch:
 
 jobs:
