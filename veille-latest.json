@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T09:46:10.658042",
+  "date": "2026-02-28T09:55:49.799973",
   "twitter": [
     {
       "username": "bcherny",
@@ -24,9 +24,9 @@
     },
     {
       "username": "bcherny",
-      "content": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production and (2) perform straightforward, parallelizable code migrations.\nIn the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with",
-      "date": "Sat, 28 Feb 2026 00:03:04 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534984534544489#m",
+      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "date": "Sat, 28 Feb 2026 00:03:05 GMT",
+      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
       "source": "rss"
     },
     {
@@ -38,9 +38,16 @@
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "content": "R to @bcherny: /simplify\n\nUse parallel agents to improve code quality, tune code efficiency, and ensure CLAUDE.md compliance.\n\nUsage: \"hey claude make this code change then run /simplify\"\n/simplify\n\nUse parallel agents to improve code quality, tune code efficiency, and ensure CLAUDE.md compliance.\n\nUsage: \"hey claude make this code change then run /simplify\"",
       "date": "Sat, 28 Feb 2026 00:03:05 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
+      "url": "https://twitter.com/bcherny/status/2027534986178662573#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production and (2) perform straightforward, parallelizable code migrations.\nIn the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with",
+      "date": "Sat, 28 Feb 2026 00:03:04 GMT",
+      "url": "https://twitter.com/bcherny/status/2027534984534544489#m",
       "source": "rss"
     },
     {
@@ -115,16 +122,16 @@
     },
     {
       "username": "bcherny",
-      "content": "We shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and you showed us what it was for.\nWe shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and y",
+      "content": "R to @bcherny: The people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You've all made this better than we could on our own.\n\nLots more to do.\nThe people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You",
       "date": "Wed, 25 Feb 2026 00:10:13 GMT",
-      "url": "https://twitter.com/bcherny/status/2026449617915884009#m",
+      "url": "https://twitter.com/bcherny/status/2026449619291627593#m",
       "source": "rss"
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: The people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You've all made this better than we could on our own.\n\nLots more to do.\nThe people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You",
+      "content": "We shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and you showed us what it was for.\nWe shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and y",
       "date": "Wed, 25 Feb 2026 00:10:13 GMT",
-      "url": "https://twitter.com/bcherny/status/2026449619291627593#m",
+      "url": "https://twitter.com/bcherny/status/2026449617915884009#m",
       "source": "rss"
     },
     {
@@ -141,7 +148,7 @@
     "trends": []
   },
   "stats": {
-    "total_tweets": 19,
+    "total_tweets": 20,
     "accounts": 1
   }
 }
