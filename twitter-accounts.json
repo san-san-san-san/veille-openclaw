@@ -1,0 +1,13 @@
+{
+  "accounts": [
+    {
+      "username": "bcherny",
+      "description": "Boris Cherny - Bun developer"
+    }
+  ],
+  "keywords": [
+    "bun",
+    "javascript",
+    "typescript"
+  ]
+}

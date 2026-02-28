@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille Twitter OpenClaw & Claude Code</title>
+    <title>Veille Twitter OpenClaw - Gestion RSS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -98,7 +98,7 @@
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             position: relative;
             z-index: 1;
@@ -165,12 +165,110 @@
             letter-spacing: 0.5px;
         }
         
-        .controls {
-            margin-top: 25px;
+        .tabs {
             display: flex;
-            flex-wrap: wrap;
             gap: 12px;
+            margin-top: 25px;
+        }
+        
+        .tab {
+            font-family: 'Space Grotesk', sans-serif;
+            padding: 14px 32px;
+            border-radius: 12px;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            background: transparent;
+            color: var(--emerald-100);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        
+        .tab.active {
+            background: linear-gradient(135deg, var(--emerald-600), var(--emerald-500));
+            border-color: var(--emerald-500);
+            box-shadow: 
+                0 10px 30px rgba(16, 185, 129, 0.3),
+                0 0 20px rgba(16, 185, 129, 0.2);
+        }
+        
+        .tab:hover:not(.active) {
+            border-color: var(--emerald-500);
+            background: rgba(16, 185, 129, 0.1);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .section {
+            background: rgba(26, 26, 36, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 
+                0 10px 40px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        }
+        
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 25px;
+            display: flex;
             align-items: center;
+            gap: 12px;
+            font-weight: 600;
+            color: var(--emerald-400);
+            letter-spacing: -0.5px;
+        }
+        
+        .section-icon {
+            font-size: 28px;
+            filter: drop-shadow(0 0 10px currentColor);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--emerald-100);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 14px 18px;
+            background: rgba(18, 18, 24, 0.8);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 12px;
+            color: var(--emerald-100);
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--emerald-500);
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+        }
+        
+        .form-input::placeholder {
+            color: rgba(255, 255, 255, 0.3);
         }
         
         .btn {
@@ -181,8 +279,6 @@
             font-size: 14px;
             font-weight: 600;
             cursor: pointer;
-            position: relative;
-            overflow: hidden;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             letter-spacing: 0.5px;
             text-transform: uppercase;
@@ -203,10 +299,63 @@
             transform: translateY(-2px);
         }
         
+        .btn-secondary {
+            background: transparent;
+            border: 1px solid rgba(239, 68, 68, 0.5);
+            color: #fca5a5;
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: #ef4444;
+        }
+        
         .btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
             transform: none !important;
+        }
+        
+        .account-list {
+            display: grid;
+            gap: 16px;
+        }
+        
+        .account-item {
+            background: rgba(18, 18, 24, 0.8);
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            padding: 20px;
+            border-radius: 16px;
+            border-left: 3px solid var(--emerald-500);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .account-item:hover {
+            transform: translateX(8px);
+            border-left-width: 5px;
+            border-color: var(--emerald-400);
+            box-shadow: 
+                -5px 0 20px rgba(16, 185, 129, 0.2),
+                0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .account-info {
+            flex: 1;
+        }
+        
+        .account-username {
+            font-weight: 600;
+            color: var(--emerald-400);
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+        
+        .account-description {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 13px;
         }
         
         .stats {
@@ -223,8 +372,6 @@
             padding: 30px;
             border-radius: 20px;
             text-align: center;
-            position: relative;
-            overflow: hidden;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
@@ -242,8 +389,6 @@
             background: linear-gradient(135deg, var(--emerald-400), var(--cyan-400));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            position: relative;
-            z-index: 1;
             font-family: 'JetBrains Mono', monospace;
         }
         
@@ -255,6 +400,48 @@
             letter-spacing: 2px;
             font-weight: 600;
             opacity: 0.8;
+        }
+        
+        .tweet-item {
+            background: rgba(18, 18, 24, 0.8);
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            padding: 20px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+            border-left: 3px solid var(--emerald-500);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .tweet-item:hover {
+            transform: translateX(8px);
+            border-left-width: 5px;
+            box-shadow: 
+                -5px 0 20px rgba(16, 185, 129, 0.2),
+                0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .tweet-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        
+        .tweet-username {
+            font-weight: 600;
+            color: var(--emerald-400);
+            font-size: 14px;
+        }
+        
+        .tweet-date {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.5);
+            font-family: 'JetBrains Mono', monospace;
+        }
+        
+        .tweet-content {
+            color: var(--emerald-50);
+            line-height: 1.7;
+            font-size: 14px;
         }
         
         .summary-box {
@@ -278,16 +465,6 @@
             right: 20px;
             font-size: 100px;
             opacity: 0.05;
-        }
-        
-        .summary-title {
-            font-size: 24px;
-            margin-bottom: 20px;
-            color: var(--emerald-400);
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 12px;
         }
         
         .summary-text {
@@ -338,141 +515,26 @@
             font-size: 20px;
         }
         
-        .trends {
-            background: rgba(6, 182, 212, 0.08);
-            border: 1px solid rgba(6, 182, 212, 0.2);
-            padding: 25px;
-            border-radius: 16px;
-        }
-        
-        .trends h3 {
-            margin-bottom: 18px;
+        .alert {
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
             font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--cyan-400);
-            font-weight: 600;
-        }
-        
-        .trend-tag {
-            display: inline-block;
-            background: rgba(6, 182, 212, 0.15);
-            border: 1px solid rgba(6, 182, 212, 0.3);
-            color: var(--cyan-400);
-            padding: 10px 18px;
-            border-radius: 10px;
-            margin: 6px;
-            font-size: 13px;
-            font-weight: 500;
-            transition: all 0.3s;
-        }
-        
-        .trend-tag:hover {
-            background: rgba(6, 182, 212, 0.25);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(6, 182, 212, 0.3);
-        }
-        
-        .section {
-            background: rgba(26, 26, 36, 0.6);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(16, 185, 129, 0.2);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 
-                0 10px 40px rgba(0, 0, 0, 0.3),
-                inset 0 1px 0 rgba(255, 255, 255, 0.05);
-        }
-        
-        .section-title {
-            font-size: 24px;
-            margin-bottom: 25px;
             display: flex;
             align-items: center;
             gap: 12px;
-            font-weight: 600;
+        }
+        
+        .alert-success {
+            background: rgba(16, 185, 129, 0.2);
+            border: 1px solid var(--emerald-500);
             color: var(--emerald-400);
-            letter-spacing: -0.5px;
         }
         
-        .section-icon {
-            font-size: 28px;
-            filter: drop-shadow(0 0 10px currentColor);
-        }
-        
-        .item {
-            background: rgba(18, 18, 24, 0.8);
-            border: 1px solid rgba(16, 185, 129, 0.15);
-            padding: 20px;
-            border-radius: 16px;
-            margin-bottom: 16px;
-            border-left: 3px solid var(--emerald-500);
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        
-        .item:hover {
-            transform: translateX(8px);
-            border-left-width: 5px;
-            border-color: var(--emerald-400);
-            box-shadow: 
-                -5px 0 20px rgba(16, 185, 129, 0.2),
-                0 5px 20px rgba(0, 0, 0, 0.2);
-        }
-        
-        .item-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
-            margin-bottom: 12px;
-        }
-        
-        .item-author {
-            font-weight: 600;
-            color: var(--emerald-400);
-            font-size: 14px;
-        }
-        
-        .item-date {
-            font-size: 11px;
-            color: rgba(255, 255, 255, 0.5);
-            font-family: 'JetBrains Mono', monospace;
-        }
-        
-        .item-content {
-            color: var(--emerald-50);
-            line-height: 1.7;
-            margin-bottom: 12px;
-            font-size: 14px;
-        }
-        
-        .keyword-tag {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--emerald-600), var(--emerald-500));
-            color: white;
-            padding: 6px 14px;
-            border-radius: 8px;
-            font-size: 10px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
-        }
-        
-        .status-message {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 20px;
-            border-radius: 10px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-        
-        .status-error {
-            background: rgba(239, 68, 68, 0.2);
-            border: 1px solid #ef4444;
-            color: #fca5a5;
+        .alert-info {
+            background: rgba(6, 182, 212, 0.2);
+            border: 1px solid var(--cyan-500);
+            color: var(--cyan-400);
         }
         
         .loading {
@@ -509,12 +571,11 @@
                 padding: 25px;
             }
             
-            .controls {
+            .tabs {
                 flex-direction: column;
-                align-items: stretch;
             }
             
-            .btn {
+            .tab {
                 width: 100%;
             }
             
@@ -550,70 +611,245 @@
     <div class="container">
         <header>
             <h1>🐦 VEILLE TWITTER OPENCLAW</h1>
-            <p class="subtitle">Surveillance automatique quotidienne • OpenClaw & Claude Code</p>
-            <div class="controls">
-                <button class="btn btn-primary" onclick="loadData()" id="refresh-btn">
-                    🔄 RAFRAÎCHIR
-                </button>
-                <span id="status-message" class="status-message" style="display:none;"></span>
+            <p class="subtitle">Surveillance RSS de comptes Twitter • Résumé IA quotidien en français</p>
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab('tweets')">📊 TWEETS</button>
+                <button class="tab" onclick="switchTab('manage')">⚙️ GÉRER COMPTES</button>
             </div>
         </header>
         
-        <div class="stats" id="stats">
-            <div class="stat-card">
-                <div class="stat-number" id="stat-twitter">-</div>
-                <div class="stat-label">TWEETS TROUVÉS</div>
+        <!-- Tab: Tweets -->
+        <div id="tab-tweets" class="tab-content active">
+            <div class="stats" id="stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-tweets">-</div>
+                    <div class="stat-label">TWEETS RÉCENTS</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-accounts">-</div>
+                    <div class="stat-label">COMPTES SUIVIS</div>
+                </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number" id="stat-keywords">-</div>
-                <div class="stat-label">MOTS-CLÉS SURVEILLÉS</div>
+            
+            <!-- Résumé IA -->
+            <div id="summary-section" style="display:none;">
+                <div class="summary-box">
+                    <h2 class="section-title">
+                        <span>🤖</span>
+                        RÉSUMÉ IA
+                    </h2>
+                    <div id="summary-content"></div>
+                </div>
             </div>
-        </div>
-        
-        <!-- Résumé IA -->
-        <div id="summary-section" style="display:none;">
-            <div class="summary-box">
-                <h2 class="summary-title">
-                    <span>🤖</span>
-                    RÉSUMÉ IA
+            
+            <!-- Tweets -->
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">🐦</span>
+                    TWEETS RÉCENTS
                 </h2>
-                <div id="summary-content"></div>
+                <div id="tweets-content" class="loading">CHARGEMENT...</div>
+            </div>
+            
+            <div class="last-update" id="last-update"></div>
+        </div>
+        
+        <!-- Tab: Manage Accounts -->
+        <div id="tab-manage" class="tab-content">
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">➕</span>
+                    AJOUTER UN COMPTE
+                </h2>
+                
+                <div class="form-group">
+                    <label class="form-label">Username Twitter (sans @)</label>
+                    <input type="text" id="new-username" class="form-input" placeholder="Ex: anthropic">
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Description (optionnel)</label>
+                    <input type="text" id="new-description" class="form-input" placeholder="Ex: Anthropic - Claude AI">
+                </div>
+                
+                <button class="btn btn-primary" onclick="addAccount()">➕ AJOUTER</button>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">📋</span>
+                    COMPTES SUIVIS
+                </h2>
+                
+                <div id="accounts-list" class="account-list"></div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">
+                    <span class="section-icon">💾</span>
+                    SAUVEGARDER & DÉPLOYER
+                </h2>
+                
+                <div class="alert alert-info">
+                    <span>ℹ️</span>
+                    <div>
+                        Après avoir ajouté/supprimé des comptes, cliquez sur "Télécharger Config" puis suivez les instructions pour déployer sur GitHub.
+                    </div>
+                </div>
+                
+                <button class="btn btn-primary" onclick="downloadConfig()">💾 TÉLÉCHARGER CONFIG</button>
+                
+                <div style="margin-top: 30px; padding: 20px; background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 12px;">
+                    <h3 style="color: var(--cyan-400); margin-bottom: 15px; font-size: 16px;">📝 INSTRUCTIONS DÉPLOIEMENT</h3>
+                    <ol style="color: var(--emerald-100); line-height: 2; padding-left: 20px;">
+                        <li>Télécharge le fichier <code>twitter-accounts.json</code></li>
+                        <li>Place-le dans ton dossier veille-openclaw</li>
+                        <li>Exécute :
+                            <pre style="background: rgba(0,0,0,0.3); padding: 10px; border-radius: 8px; margin-top: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px;">git add twitter-accounts.json
+git commit -m "Update Twitter accounts"
+git push origin main</pre>
+                        </li>
+                        <li>GitHub Actions va détecter le changement et scraper les nouveaux comptes</li>
+                        <li>Attends 2-3 minutes et actualise le dashboard !</li>
+                    </ol>
+                </div>
             </div>
         </div>
-        
-        <!-- Twitter Section -->
-        <div class="section">
-            <h2 class="section-title">
-                <span class="section-icon">🐦</span>
-                TWEETS RÉCENTS
-            </h2>
-            <div id="twitter-content" class="loading">CHARGEMENT...</div>
-        </div>
-        
-        <div class="last-update" id="last-update"></div>
     </div>
     
     <script>
+        let accounts = [];
+        
+        // Switch tabs
+        function switchTab(tabName) {
+            // Remove active from all tabs and contents
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            
+            // Add active to selected
+            event.target.classList.add('active');
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+            
+            // Load data for manage tab
+            if (tabName === 'manage') {
+                loadAccountsConfig();
+            }
+        }
+        
+        // Load accounts config
+        async function loadAccountsConfig() {
+            try {
+                const response = await fetch('twitter-accounts.json');
+                const config = await response.json();
+                accounts = config.accounts || [];
+                renderAccountsList();
+            } catch (error) {
+                console.error('Error loading accounts:', error);
+                accounts = [
+                    { username: 'bcherny', description: 'Test account - Bun developer' },
+                    { username: 'anthropic', description: 'Anthropic - Claude AI' }
+                ];
+                renderAccountsList();
+            }
+        }
+        
+        // Render accounts list
+        function renderAccountsList() {
+            const container = document.getElementById('accounts-list');
+            
+            if (accounts.length === 0) {
+                container.innerHTML = '<div class="empty-state">Aucun compte configuré</div>';
+                return;
+            }
+            
+            container.innerHTML = accounts.map((acc, index) => `
+                <div class="account-item">
+                    <div class="account-info">
+                        <div class="account-username">@${escapeHtml(acc.username)}</div>
+                        <div class="account-description">${escapeHtml(acc.description || '')}</div>
+                    </div>
+                    <button class="btn btn-secondary" onclick="removeAccount(${index})">🗑️ SUPPRIMER</button>
+                </div>
+            `).join('');
+        }
+        
+        // Add account
+        function addAccount() {
+            const username = document.getElementById('new-username').value.trim().replace('@', '');
+            const description = document.getElementById('new-description').value.trim();
+            
+            if (!username) {
+                alert('⚠️ Veuillez entrer un username Twitter');
+                return;
+            }
+            
+            // Check if already exists
+            if (accounts.some(acc => acc.username.toLowerCase() === username.toLowerCase())) {
+                alert('⚠️ Ce compte est déjà dans la liste');
+                return;
+            }
+            
+            // Add to list
+            accounts.push({ username, description });
+            
+            // Clear inputs
+            document.getElementById('new-username').value = '';
+            document.getElementById('new-description').value = '';
+            
+            // Re-render
+            renderAccountsList();
+            
+            // Show success message
+            alert(`✅ @${username} ajouté ! N'oubliez pas de télécharger la config et de la déployer sur GitHub.`);
+        }
+        
+        // Remove account
+        function removeAccount(index) {
+            const account = accounts[index];
+            if (confirm(`🗑️ Supprimer @${account.username} ?`)) {
+                accounts.splice(index, 1);
+                renderAccountsList();
+            }
+        }
+        
+        // Download config
+        function downloadConfig() {
+            const config = {
+                accounts: accounts,
+                keywords: ["openclaw", "claude", "code", "ai", "llm"]
+            };
+            
+            const blob = new Blob([JSON.stringify(config, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'twitter-accounts.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            alert('✅ Fichier twitter-accounts.json téléchargé ! Suivez les instructions pour le déployer.');
+        }
+        
+        // Load tweets data
         async function loadData() {
             try {
                 const response = await fetch('veille-latest.json');
                 const data = await response.json();
                 
                 // Stats
-                document.getElementById('stat-twitter').textContent = data.twitter.length;
-                document.getElementById('stat-keywords').textContent = data.stats?.keywords || 4;
+                document.getElementById('stat-tweets').textContent = data.twitter.length;
+                document.getElementById('stat-accounts').textContent = data.stats?.accounts || 0;
                 
-                // Résumé IA
+                // Summary
                 if (data.summary && data.summary.summary) {
                     const summarySection = document.getElementById('summary-section');
                     const summaryContent = document.getElementById('summary-content');
                     
                     let summaryHTML = '';
-                    
-                    // Résumé général
                     summaryHTML += `<div class="summary-text">${escapeHtml(data.summary.summary)}</div>`;
                     
-                    // Points clés
                     if (data.summary.key_points && data.summary.key_points.length > 0) {
                         summaryHTML += '<div class="key-points"><h3>📌 POINTS CLÉS</h3><ul>';
                         data.summary.key_points.forEach(point => {
@@ -622,50 +858,35 @@
                         summaryHTML += '</ul></div>';
                     }
                     
-                    // Tendances
-                    if (data.summary.trends && data.summary.trends.length > 0) {
-                        summaryHTML += '<div class="trends"><h3>📈 TENDANCES</h3>';
-                        data.summary.trends.forEach(trend => {
-                            summaryHTML += `<span class="trend-tag">${escapeHtml(trend)}</span>`;
-                        });
-                        summaryHTML += '</div>';
-                    }
-                    
                     summaryContent.innerHTML = summaryHTML;
                     summarySection.style.display = 'block';
                 } else {
                     document.getElementById('summary-section').style.display = 'none';
                 }
                 
-                // Twitter
-                const twitterHTML = data.twitter.length > 0 
+                // Tweets
+                const tweetsHTML = data.twitter.length > 0 
                     ? data.twitter.map(tweet => `
-                        <div class="item">
-                            <div class="item-header">
-                                <span class="item-author">@${escapeHtml(tweet.username)}</span>
-                                <span class="item-date">${tweet.date}</span>
+                        <div class="tweet-item">
+                            <div class="tweet-header">
+                                <span class="tweet-username">@${escapeHtml(tweet.username)}</span>
+                                <span class="tweet-date">${tweet.date}</span>
                             </div>
-                            <div class="item-content">${escapeHtml(tweet.content)}</div>
-                            <span class="keyword-tag">${escapeHtml(tweet.keyword)}</span>
+                            <div class="tweet-content">${escapeHtml(tweet.content)}</div>
                         </div>
                     `).join('')
                     : '<div class="empty-state">Aucun tweet trouvé</div>';
                 
-                document.getElementById('twitter-content').innerHTML = twitterHTML;
+                document.getElementById('tweets-content').innerHTML = tweetsHTML;
                 
-                // Date mise à jour
+                // Last update
                 const date = new Date(data.date);
                 document.getElementById('last-update').textContent = 
                     `DERNIÈRE MISE À JOUR : ${date.toLocaleDateString('fr-FR')} • ${date.toLocaleTimeString('fr-FR')}`;
                 
             } catch (error) {
-                console.error('Erreur chargement données:', error);
-                const statusMsg = document.getElementById('status-message');
-                statusMsg.textContent = '❌ Mode local : utilisez python3 scraper-twitter-only.py';
-                statusMsg.className = 'status-message status-error';
-                statusMsg.style.display = 'inline-flex';
-                
-                document.getElementById('twitter-content').innerHTML = 
+                console.error('Error loading data:', error);
+                document.getElementById('tweets-content').innerHTML = 
                     '<div class="empty-state">❌ ERREUR DE CHARGEMENT</div>';
             }
         }
@@ -676,10 +897,11 @@
             return div.innerHTML;
         }
         
-        // Charger au démarrage
+        // Load data on start
         loadData();
+        loadAccountsConfig();
         
-        // Auto-refresh toutes les 5 minutes
+        // Auto-refresh every 5 minutes
         setInterval(loadData, 5 * 60 * 1000);
     </script>
 </body>
