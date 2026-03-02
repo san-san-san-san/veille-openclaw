@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-02T08:30:04.749706",
+  "date": "2026-03-02T08:38:23.523093",
   "twitter": [
     {
       "username": "bcherny",
@@ -24,6 +24,13 @@
     },
     {
       "username": "bcherny",
+      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "date": "Sat, 28 Feb 2026 00:03:05 GMT",
+      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
       "content": "R to @bcherny: /batch\n\nInteractively plan out code migrations, then execute in parallel using dozens of agents.\n\nEach agent runs with full isolation using git worktrees, testing its work before putting up a PR.\n\nUsage: \"/batch migrate src/ from Solid to React\"\n/batch\n\nInteractively plan out code migrations, then execute in parallel using dozens of agents.\n\nEach agent runs with full isolation using git worktrees, testing its work before putting up a PR.\n\nUsage: \"/batch migrate src/ from Solid to ",
       "date": "Sat, 28 Feb 2026 00:03:05 GMT",
       "url": "https://twitter.com/bcherny/status/2027534987462119828#m",
@@ -31,9 +38,9 @@
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "content": "R to @bcherny: /simplify\n\nUse parallel agents to improve code quality, tune code efficiency, and ensure CLAUDE.md compliance.\n\nUsage: \"hey claude make this code change then run /simplify\"\n/simplify\n\nUse parallel agents to improve code quality, tune code efficiency, and ensure CLAUDE.md compliance.\n\nUsage: \"hey claude make this code change then run /simplify\"",
       "date": "Sat, 28 Feb 2026 00:03:05 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
+      "url": "https://twitter.com/bcherny/status/2027534986178662573#m",
       "source": "rss"
     },
     {
@@ -122,26 +129,26 @@
     },
     {
       "username": "bcherny",
-      "content": "We shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and you showed us what it was for.\nWe shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and y",
-      "date": "Wed, 25 Feb 2026 00:10:13 GMT",
-      "url": "https://twitter.com/bcherny/status/2026449617915884009#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "R to @bcherny: The people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You've all made this better than we could on our own.\n\nLots more to do.\nThe people who build Claude Code, and everyone across Anthropic, are the reason any of this happened. \n\nSame goes for every developer who's been building with us, breaking things, and telling us about it. You",
       "date": "Wed, 25 Feb 2026 00:10:13 GMT",
       "url": "https://twitter.com/bcherny/status/2026449619291627593#m",
       "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "We shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and you showed us what it was for.\nWe shipped Claude Code as a research preview a year ago today.\n\nDevelopers have used it to build weekend projects, ship production apps, write code at the world's largest companies, and help plan a Mars rover drive.\n\nWe built it, and y",
+      "date": "Wed, 25 Feb 2026 00:10:13 GMT",
+      "url": "https://twitter.com/bcherny/status/2026449617915884009#m",
+      "source": "rss"
     }
   ],
   "summary": {
-    "summary": "Résumé IA non disponible (clé API manquante)",
+    "summary": "Erreur API OpenRouter (code 404)",
     "key_points": [],
     "trends": []
   },
   "stats": {
-    "total_tweets": 19,
+    "total_tweets": 20,
     "accounts": 1
   }
 }
