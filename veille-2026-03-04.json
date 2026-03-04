@@ -1,18 +1,18 @@
 {
-  "date": "2026-03-04T08:33:41.391369",
+  "date": "2026-03-04T08:38:39.588625",
   "twitter": [
-    {
-      "username": "bcherny",
-      "content": "🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n\n\nThariq (@trq212)\n\nVoice mode is rolling out now in Claude Code. It’s live for ~5% of users today, and will be ramping through the coming weeks.\n\nYou'll see a note on the welcome screen once you have access. /voice to toggle it on!\n\nVideo\n  \n\n\n\n\n— https://nitter.net/trq212/status/",
-      "date": "Tue, 03 Mar 2026 00:32:35 GMT",
-      "url": "https://twitter.com/bcherny/status/2028629573722939789#m",
-      "source": "rss"
-    },
     {
       "username": "bcherny",
       "content": "RT by @bcherny: Here's a roundup of how Claude Code has changed engineering at inside Ramp, Rakuten, Brex, Wiz, Shopify, and Spotify 🧵\nHere's a roundup of how Claude Code has changed engineering at inside Ramp, Rakuten, Brex, Wiz, Shopify, and Spotify 🧵",
       "date": "Mon, 02 Mar 2026 22:50:23 GMT",
       "url": "https://twitter.com/_catwu/status/2028603856163426522#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n\n\nThariq (@trq212)\n\nVoice mode is rolling out now in Claude Code. It’s live for ~5% of users today, and will be ramping through the coming weeks.\n\nYou'll see a note on the welcome screen once you have access. /voice to toggle it on!\n\nVideo\n  \n\n\n\n\n— https://nitter.net/trq212/status/",
+      "date": "Tue, 03 Mar 2026 00:32:35 GMT",
+      "url": "https://twitter.com/bcherny/status/2028629573722939789#m",
       "source": "rss"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: A statement on the comments from Secretary of War Pete Hegseth. \n\nhttps://anthropic.com/news/statement-comments-secretary-war\nA statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…\n",
-      "date": "Sat, 28 Feb 2026 01:24:31 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2027555481699446918#m",
+      "content": "RT by @bcherny: Bun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredClone, Buffer.slice, path.parse\n\nThanks 11 contributors!\nhttps://bun.com/blog/bun-v1.3.10\nBun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredCl",
+      "date": "Thu, 26 Feb 2026 09:04:36 GMT",
+      "url": "https://twitter.com/bunjavascript/status/2026946487599697948#m",
       "source": "rss"
     },
     {
@@ -48,6 +48,13 @@
       "content": "RT by @bcherny: a few Friday afternoon ships to end the week:\n\nthe AskUserQuestion tool can now show markdown snippets to display diagrams, code examples, etc.\na few Friday afternoon ships to end the week:\n\nthe AskUserQuestion tool can now show markdown snippets to display diagrams, code examples, etc.\n\nVideo\n  \n",
       "date": "Sat, 28 Feb 2026 00:38:20 GMT",
       "url": "https://twitter.com/trq212/status/2027543858289250472#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: A statement on the comments from Secretary of War Pete Hegseth. \n\nhttps://anthropic.com/news/statement-comments-secretary-war\nA statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…\n",
+      "date": "Sat, 28 Feb 2026 01:24:31 GMT",
+      "url": "https://twitter.com/AnthropicAI/status/2027555481699446918#m",
       "source": "rss"
     },
     {
@@ -129,13 +136,6 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Bun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredClone, Buffer.slice, path.parse\n\nThanks 11 contributors!\nhttps://bun.com/blog/bun-v1.3.10\nBun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredCl",
-      "date": "Thu, 26 Feb 2026 09:04:36 GMT",
-      "url": "https://twitter.com/bunjavascript/status/2026946487599697948#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "RT by @bcherny: In the spirit of building in public:\n📈 Wow this was a popular feature. We've scaled up some capacity on our end to accommodate usage. Sorry if you ran into some connectivity issues in the past few hours\n🐞 Some text may be covered on Android. We're on it.\n🐞 GH auth is required to see Code pane on mobile (you can still deeplink to your session via QR/link)\n✅ Plan mode and AskUserQuestion should be fixed\n🚧 WIP - making permissions more flexible in remote control sessions so you can ",
       "date": "Wed, 25 Feb 2026 17:42:32 GMT",
       "url": "https://twitter.com/noahzweben/status/2026714443820970038#m",
@@ -143,7 +143,7 @@
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
