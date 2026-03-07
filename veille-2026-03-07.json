@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T08:24:57.304617",
+  "date": "2026-03-07T08:30:57.446559",
   "twitter": [
     {
       "username": "bcherny",
@@ -13,20 +13,6 @@
       "content": "Released today: /loop\n\n/loop is a powerful new way to schedule recurring tasks, for up to 3 days at a time\n\neg. “/loop babysit all my PRs. Auto-fix build issues and when comments come in, use a worktree agent to fix them”\n\neg. “/loop every morning use the Slack MCP to give me a summary of top posts I was tagged in”\n\nLet us know what you think!\nReleased today: /loop\n\n/loop is a powerful new way to schedule recurring tasks, for up to 3 days at a time\n\neg. “/loop babysit all my PRs. Auto-fix build ",
       "date": "Sat, 07 Mar 2026 08:08:47 GMT",
       "url": "https://twitter.com/bcherny/status/2030193932404150413#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: /loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\nhttps://code.claude.com/docs/en/scheduled-tasks\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n",
-      "date": "Sat, 07 Mar 2026 01:20:41 GMT",
-      "url": "https://twitter.com/noahzweben/status/2030091232698061202#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Today we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\nToday we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\n\nVideo\n  \n",
-      "date": "Fri, 06 Mar 2026 20:35:14 GMT",
-      "url": "https://twitter.com/trq212/status/2030019397335843288#m",
       "source": "rss"
     },
     {
@@ -45,9 +31,16 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Remote Control is now available to Team and Enterprise users! Please update to 2.1.69. \n\nWe are fully launched. Enjoy the fresh air Remote Control is now available to Team and Enterprise users! Please update to 2.1.69. \n\nWe are fully launched. Enjoy the fresh air &lt;3 \n\nDefault off but admins can enable at claude.ai/admin-settings/cla…\n\n  ",
-      "date": "Fri, 06 Mar 2026 00:38:36 GMT",
-      "url": "https://twitter.com/noahzweben/status/2029718251182379466#m",
+      "content": "RT by @bcherny: /loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\nhttps://code.claude.com/docs/en/scheduled-tasks\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n",
+      "date": "Sat, 07 Mar 2026 01:20:41 GMT",
+      "url": "https://twitter.com/noahzweben/status/2030091232698061202#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Today we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\nToday we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\n\nVideo\n  \n",
+      "date": "Fri, 06 Mar 2026 20:35:14 GMT",
+      "url": "https://twitter.com/trq212/status/2030019397335843288#m",
       "source": "rss"
     },
     {
@@ -59,16 +52,16 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: In Claude Code, we’ve recently launched HTTP hooks, easier to use and more secure than existing command hooks! You can build a web app (even on localhost) to view CC’s progress, manage its permissions, and more. Then, now that you have a server with your hooks processing logic, you can easily deploy new changes or manage state across your CCs with a DB.\n\nHow do HTTP hooks work? CC posts the hook event to a URL of your choice and awaits a response. They work wherever hooks are sup",
-      "date": "Wed, 04 Mar 2026 16:41:32 GMT",
-      "url": "https://twitter.com/dickson_tsai/status/2029235808235078095#m",
+      "content": "RT by @bcherny: Remote Control is now available to Team and Enterprise users! Please update to 2.1.69. \n\nWe are fully launched. Enjoy the fresh air Remote Control is now available to Team and Enterprise users! Please update to 2.1.69. \n\nWe are fully launched. Enjoy the fresh air &lt;3 \n\nDefault off but admins can enable at claude.ai/admin-settings/cla…\n\n  ",
+      "date": "Fri, 06 Mar 2026 00:38:36 GMT",
+      "url": "https://twitter.com/noahzweben/status/2029718251182379466#m",
       "source": "rss"
     },
     {
       "username": "bcherny",
-      "content": "🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n\n\nThariq (@trq212)\n\nVoice mode is rolling out now in Claude Code. It’s live for ~5% of users today, and will be ramping through the coming weeks.\n\nYou'll see a note on the welcome screen once you have access. /voice to toggle it on!\n\nVideo\n  \n\n\n\n\n— https://nitter.net/trq212/status/",
-      "date": "Tue, 03 Mar 2026 00:32:35 GMT",
-      "url": "https://twitter.com/bcherny/status/2028629573722939789#m",
+      "content": "RT by @bcherny: In Claude Code, we’ve recently launched HTTP hooks, easier to use and more secure than existing command hooks! You can build a web app (even on localhost) to view CC’s progress, manage its permissions, and more. Then, now that you have a server with your hooks processing logic, you can easily deploy new changes or manage state across your CCs with a DB.\n\nHow do HTTP hooks work? CC posts the hook event to a URL of your choice and awaits a response. They work wherever hooks are sup",
+      "date": "Wed, 04 Mar 2026 16:41:32 GMT",
+      "url": "https://twitter.com/dickson_tsai/status/2029235808235078095#m",
       "source": "rss"
     },
     {
@@ -83,6 +76,13 @@
       "content": "RT by @bcherny: Here's a roundup of how Claude Code has changed engineering at inside Ramp, Rakuten, Brex, Wiz, Shopify, and Spotify 🧵\nHere's a roundup of how Claude Code has changed engineering at inside Ramp, Rakuten, Brex, Wiz, Shopify, and Spotify 🧵",
       "date": "Mon, 02 Mar 2026 22:50:23 GMT",
       "url": "https://twitter.com/_catwu/status/2028603856163426522#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n\n\nThariq (@trq212)\n\nVoice mode is rolling out now in Claude Code. It’s live for ~5% of users today, and will be ramping through the coming weeks.\n\nYou'll see a note on the welcome screen once you have access. /voice to toggle it on!\n\nVideo\n  \n\n\n\n\n— https://nitter.net/trq212/status/",
+      "date": "Tue, 03 Mar 2026 00:32:35 GMT",
+      "url": "https://twitter.com/bcherny/status/2028629573722939789#m",
       "source": "rss"
     },
     {
@@ -108,9 +108,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: A statement on the comments from Secretary of War Pete Hegseth. \n\nhttps://anthropic.com/news/statement-comments-secretary-war\nA statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…\n",
-      "date": "Sat, 28 Feb 2026 01:24:31 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2027555481699446918#m",
+      "content": "RT by @bcherny: Bun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredClone, Buffer.slice, path.parse\n\nThanks 11 contributors!\nhttps://bun.com/blog/bun-v1.3.10\nBun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredCl",
+      "date": "Thu, 26 Feb 2026 09:04:36 GMT",
+      "url": "https://twitter.com/bunjavascript/status/2026946487599697948#m",
       "source": "rss"
     },
     {
@@ -118,6 +118,13 @@
       "content": "RT by @bcherny: a few Friday afternoon ships to end the week:\n\nthe AskUserQuestion tool can now show markdown snippets to display diagrams, code examples, etc.\na few Friday afternoon ships to end the week:\n\nthe AskUserQuestion tool can now show markdown snippets to display diagrams, code examples, etc.\n\nVideo\n  \n",
       "date": "Sat, 28 Feb 2026 00:38:20 GMT",
       "url": "https://twitter.com/trq212/status/2027543858289250472#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: A statement on the comments from Secretary of War Pete Hegseth. \n\nhttps://anthropic.com/news/statement-comments-secretary-war\nA statement on the comments from Secretary of War Pete Hegseth. \n\nanthropic.com/news/statement…\n",
+      "date": "Sat, 28 Feb 2026 01:24:31 GMT",
+      "url": "https://twitter.com/AnthropicAI/status/2027555481699446918#m",
       "source": "rss"
     },
     {
@@ -133,17 +140,10 @@
       "date": "Sat, 28 Feb 2026 00:03:05 GMT",
       "url": "https://twitter.com/bcherny/status/2027534987462119828#m",
       "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Bun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredClone, Buffer.slice, path.parse\n\nThanks 11 contributors!\nhttps://bun.com/blog/bun-v1.3.10\nBun v1.3.10\n- Fixes 155 issues (addressing 642 👍)\n- `bun repl` - native JS/TS repl\n- Windows ARM64\n- ECMAScript decorators\n- Faster event loop\n- Barrel file import optimization\n- Faster structuredCl",
-      "date": "Thu, 26 Feb 2026 09:04:36 GMT",
-      "url": "https://twitter.com/bunjavascript/status/2026946487599697948#m",
-      "source": "rss"
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
