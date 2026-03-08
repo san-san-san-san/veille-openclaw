@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-08T08:17:21.689290",
+  "date": "2026-03-08T08:25:23.027694",
   "twitter": [
     {
       "username": "bcherny",
@@ -122,16 +122,16 @@
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: Let us know what you think!\nLet us know what you think!",
+      "content": "R to @bcherny: /batch\n\nInteractively plan out code migrations, then execute in parallel using dozens of agents.\n\nEach agent runs with full isolation using git worktrees, testing its work before putting up a PR.\n\nUsage: \"/batch migrate src/ from Solid to React\"\n/batch\n\nInteractively plan out code migrations, then execute in parallel using dozens of agents.\n\nEach agent runs with full isolation using git worktrees, testing its work before putting up a PR.\n\nUsage: \"/batch migrate src/ from Solid to ",
       "date": "Sat, 28 Feb 2026 00:03:05 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534988753965381#m",
+      "url": "https://twitter.com/bcherny/status/2027534987462119828#m",
       "source": "rss"
     },
     {
       "username": "bcherny",
-      "content": "R to @bcherny: /batch\n\nInteractively plan out code migrations, then execute in parallel using dozens of agents.\n\nEach agent runs with full isolation using git worktrees, testing its work before putting up a PR.\n\nUsage: \"/batch migrate src/ from Solid to React\"\n/batch\n\nInteractively plan out code migrations, then execute in parallel using dozens of agents.\n\nEach agent runs with full isolation using git worktrees, testing its work before putting up a PR.\n\nUsage: \"/batch migrate src/ from Solid to ",
-      "date": "Sat, 28 Feb 2026 00:03:05 GMT",
-      "url": "https://twitter.com/bcherny/status/2027534987462119828#m",
+      "content": "In the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.\n\nCombined, these kills automate much of the work it used to take to (1) shepherd a pull request to production and (2) perform straightforward, parallelizable code migrations.\nIn the next version of Claude Code..\n\nWe're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with",
+      "date": "Sat, 28 Feb 2026 00:03:04 GMT",
+      "url": "https://twitter.com/bcherny/status/2027534984534544489#m",
       "source": "rss"
     },
     {
@@ -143,7 +143,7 @@
     }
   ],
   "summary": {
-    "summary": "Résumé IA non disponible (clé API manquante)",
+    "summary": "Erreur API OpenRouter (code 404)",
     "key_points": [],
     "trends": []
   },
