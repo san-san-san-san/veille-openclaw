@@ -1,6 +1,13 @@
 {
-  "date": "2026-03-15T08:31:03.704756",
+  "date": "2026-03-15T08:36:32.829968",
   "twitter": [
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Three years ago today.\nThree years ago today.\n",
+      "date": "Sat, 14 Mar 2026 11:56:59 GMT",
+      "url": "https://twitter.com/sammcallister/status/2032788075760308670#m",
+      "source": "rss"
+    },
     {
       "username": "bcherny",
       "content": "R to @bcherny: Quick thank you to everyone who's been building with Claude Code, both the early crowd and everyone who showed up this year. It’s only thanks to your feedback that we can make the product a little better every day.\nQuick thank you to everyone who's been building with Claude Code, both the early crowd and everyone who showed up this year. It’s only thanks to your feedback that we can make the product a little better every day.",
@@ -17,9 +24,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Three years ago today.\nThree years ago today.\n",
-      "date": "Sat, 14 Mar 2026 11:56:59 GMT",
-      "url": "https://twitter.com/sammcallister/status/2032788075760308670#m",
+      "content": "RT by @bcherny: Starting today, Claude no longer defaults to text. Claude is learning to choose the best medium for each response — based on the task, the data, and what's most useful for the person. Give it a try!\nStarting today, Claude no longer defaults to text. Claude is learning to choose the best medium for each response — based on the task, the data, and what's most useful for the person. Give it a try!\n\n\nClaude (@claudeai)\n\nClaude can now build interactive charts and diagrams, directly i",
+      "date": "Thu, 12 Mar 2026 16:51:18 GMT",
+      "url": "https://twitter.com/feldman/status/2032137366358401484#m",
       "source": "rss"
     },
     {
@@ -59,13 +66,6 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Starting today, Claude no longer defaults to text. Claude is learning to choose the best medium for each response — based on the task, the data, and what's most useful for the person. Give it a try!\nStarting today, Claude no longer defaults to text. Claude is learning to choose the best medium for each response — based on the task, the data, and what's most useful for the person. Give it a try!\n\n\nClaude (@claudeai)\n\nClaude can now build interactive charts and diagrams, directly i",
-      "date": "Thu, 12 Mar 2026 16:51:18 GMT",
-      "url": "https://twitter.com/feldman/status/2032137366358401484#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "RT by @bcherny: Claude can now build interactive charts and diagrams, directly in the chat.\n\nAvailable today in beta on all plans, including free.\n\nTry it out: http://claude.ai\nClaude can now build interactive charts and diagrams, directly in the chat.\n\nAvailable today in beta on all plans, including free.\n\nTry it out: claude.ai\n\nVideo\n  \n",
       "date": "Thu, 12 Mar 2026 15:59:16 GMT",
       "url": "https://twitter.com/claudeai/status/2032124273587077133#m",
@@ -73,16 +73,16 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Claude for Excel and Claude for PowerPoint now sync together seamlessly.\n\nWhen you’ve got more than one file open, Claude shares the full context of your conversation between them.\n\nPull data from spreadsheets, build out tables, and update a deck — without re-explaining a step.\nClaude for Excel and Claude for PowerPoint now sync together seamlessly.\n\nWhen you’ve got more than one file open, Claude shares the full context of your conversation between them.\n\nPull data from spreadsh",
-      "date": "Wed, 11 Mar 2026 17:53:59 GMT",
-      "url": "https://twitter.com/claudeai/status/2031790754637717772#m",
+      "content": "RT by @bcherny: I've seen enough. Anthropic is the new default for businesses.\n\nSays latest Ramp AI Index.\nI've seen enough. Anthropic is the new default for businesses.\n\nSays latest Ramp AI Index.\n",
+      "date": "Wed, 11 Mar 2026 16:39:10 GMT",
+      "url": "https://twitter.com/arakharazian/status/2031771926557823225#m",
       "source": "rss"
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: I've seen enough. Anthropic is the new default for businesses.\n\nSays latest Ramp AI Index.\nI've seen enough. Anthropic is the new default for businesses.\n\nSays latest Ramp AI Index.\n",
-      "date": "Wed, 11 Mar 2026 16:39:10 GMT",
-      "url": "https://twitter.com/arakharazian/status/2031771926557823225#m",
+      "content": "RT by @bcherny: Claude for Excel and Claude for PowerPoint now sync together seamlessly.\n\nWhen you’ve got more than one file open, Claude shares the full context of your conversation between them.\n\nPull data from spreadsheets, build out tables, and update a deck — without re-explaining a step.\nClaude for Excel and Claude for PowerPoint now sync together seamlessly.\n\nWhen you’ve got more than one file open, Claude shares the full context of your conversation between them.\n\nPull data from spreadsh",
+      "date": "Wed, 11 Mar 2026 17:53:59 GMT",
+      "url": "https://twitter.com/claudeai/status/2031790754637717772#m",
       "source": "rss"
     },
     {
@@ -115,20 +115,6 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: /loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\nhttps://code.claude.com/docs/en/scheduled-tasks\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n",
-      "date": "Sat, 07 Mar 2026 01:20:41 GMT",
-      "url": "https://twitter.com/noahzweben/status/2030091232698061202#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Today we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\nToday we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\n\nVideo\n  \n",
-      "date": "Fri, 06 Mar 2026 20:35:14 GMT",
-      "url": "https://twitter.com/trq212/status/2030019397335843288#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "RT by @bcherny: Want to host Claude meetups in your city? We'll cover the funding, send swag, and give you monthly API credits for your demos. \n\nYou also get access to pre-release features and a private slack with the team! Go apply 💛\nWant to host Claude meetups in your city? We'll cover the funding, send swag, and give you monthly API credits for your demos. \n\nYou also get access to pre-release features and a private slack with the team! Go apply 💛\n\n\nClaude (@claudeai)\n\nWe're launching Claude C",
       "date": "Fri, 06 Mar 2026 19:31:34 GMT",
       "url": "https://twitter.com/lydiahallie/status/2030003374436073964#m",
@@ -140,10 +126,24 @@
       "date": "Fri, 06 Mar 2026 17:05:07 GMT",
       "url": "https://twitter.com/claudeai/status/2029966517497122886#m",
       "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: /loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\nhttps://code.claude.com/docs/en/scheduled-tasks\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n",
+      "date": "Sat, 07 Mar 2026 01:20:41 GMT",
+      "url": "https://twitter.com/noahzweben/status/2030091232698061202#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Today we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\nToday we're launching local scheduled tasks in Claude Code desktop. \n\nCreate a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.\n\nVideo\n  \n",
+      "date": "Fri, 06 Mar 2026 20:35:14 GMT",
+      "url": "https://twitter.com/trq212/status/2030019397335843288#m",
+      "source": "rss"
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
