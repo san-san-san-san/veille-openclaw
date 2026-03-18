@@ -1,13 +1,154 @@
 {
-  "date": "2026-03-18T08:41:37.572174",
-  "twitter": [],
+  "date": "2026-03-18T08:41:58.985528",
+  "twitter": [
+    {
+      "username": "bcherny",
+      "content": "You can now touch grass in Cowork, too 👏\nYou can now touch grass in Cowork, too 👏\n\n\nFelix Rieseberg (@felixrieseberg)\n\nWe're shipping a new feature in Claude Cowork as a research preview that I'm excited about: Dispatch!\n\nOne persistent conversation with Claude that runs on your computer. Message it from your phone. Come back to finished work. \n\nTo try it out, download Claude Desktop, then pair your phone.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/felixrieseberg/status/2034005731457044577#m\n\n",
+      "date": "Tue, 17 Mar 2026 21:44:10 GMT",
+      "url": "https://twitter.com/bcherny/status/2034023009032286422#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: heard you like context?\n\nOpus 4.6 1M context is out for Max/Teams/Enterprise on desktop\nheard you like context?\n\nOpus 4.6 1M context is out for Max/Teams/Enterprise on desktop\n",
+      "date": "Tue, 17 Mar 2026 20:05:26 GMT",
+      "url": "https://twitter.com/amorriscode/status/2033998163074551961#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: We've been building an internal Claude Code plugin system at Intercom with 13 plugins, 100+ skills, and hooks that turn Claude into a full-stack engineering platform. Lots done, more to do. Here's a thread of some highlights.\nWe've been building an internal Claude Code plugin system at Intercom with 13 plugins, 100+ skills, and hooks that turn Claude into a full-stack engineering platform. Lots done, more to do. Here's a thread of some highlights.",
+      "date": "Tue, 17 Mar 2026 18:46:30 GMT",
+      "url": "https://twitter.com/brian_scanlan/status/2033978300003987527#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "Really great writeup\nReally great writeup\n\n\nThariq (@trq212)\n\nx.com/i/article/203377262153…\n\n\n\n— https://nitter.net/trq212/status/2033949937936085378#m\n\n",
+      "date": "Tue, 17 Mar 2026 16:57:19 GMT",
+      "url": "https://twitter.com/bcherny/status/2033950823248429176#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Btw you can add `context: fork` to run a skill in an isolated subagent. The main context only sees the final result, not the intermediate tool calls\n\nIt gets a fresh context window with CLAUDE.md + your skill as the prompt. The `agent` field even lets you set the subagent type!\nBtw you can add `context: fork` to run a skill in an isolated subagent. The main context only sees the final result, not the intermediate tool calls\n\nIt gets a fresh context window with CLAUDE.md + your sk",
+      "date": "Mon, 16 Mar 2026 17:55:51 GMT",
+      "url": "https://twitter.com/lydiahallie/status/2033603164398883042#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Quick thank you to everyone who's been building with Claude Code, both the early crowd and everyone who showed up this year. It’s only thanks to your feedback that we can make the product a little better every day.\nQuick thank you to everyone who's been building with Claude Code, both the early crowd and everyone who showed up this year. It’s only thanks to your feedback that we can make the product a little better every day.",
+      "date": "Sat, 14 Mar 2026 20:52:30 GMT",
+      "url": "https://twitter.com/bcherny/status/2032922841734070742#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "We doubled Claude usage on weekends, and outside 5–11am PT on weekdays for the next 2 weeks.\nWe doubled Claude usage on weekends, and outside 5–11am PT on weekdays for the next 2 weeks.\n\n\nClaude (@claudeai)\n\nA small thank you to everyone using Claude: We’re doubling usage outside our peak hours for the next two weeks.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2032911276226257206#m\n\n",
+      "date": "Sat, 14 Mar 2026 20:52:29 GMT",
+      "url": "https://twitter.com/bcherny/status/2032922838751928407#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Three years ago today.\nThree years ago today.\n",
+      "date": "Sat, 14 Mar 2026 11:56:59 GMT",
+      "url": "https://twitter.com/sammcallister/status/2032788075760308670#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: A few end of week ships:\n\nYou can now set effort to 'max' which reasons for longer and uses as many tokens as needed. This will spend your usage limits more quickly so you have to activate it per session. \n\nHit /effort to try it.\nA few end of week ships:\n\nYou can now set effort to 'max' which reasons for longer and uses as many tokens as needed. This will spend your usage limits more quickly so you have to activate it per session. \n\nHit /effort to try it.\n\nVideo\n  \n",
+      "date": "Sat, 14 Mar 2026 01:39:10 GMT",
+      "url": "https://twitter.com/trq212/status/2032632596572811575#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "🤯 You can now launch Claude Code sessions on your laptop *from your phone*\n\nThis blew my mind the first time I tried it\n🤯 You can now launch Claude Code sessions on your laptop *from your phone*\n\nThis blew my mind the first time I tried it\n\n\nNoah Zweben (@noahzweben)\n\nRemote Control - Session Spawning:\nRun claude remote-control and then spawn a NEW local session in the mobile app.\n\n* Out to Max, Team, and Enterprise (&gt;=2.1.74)\n*Have GH set up on mobile (relaxing soon)\n* Working on speeding up",
+      "date": "Fri, 13 Mar 2026 22:04:45 GMT",
+      "url": "https://twitter.com/bcherny/status/2032578639276159438#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Personally, I've been using exclusively 1M context for the last few months and loving it.\n\nYou can also customize your auto-compact threshold with the CLAUDE_CODE_AUTO_COMPACT_WINDOW env var.\n\nMore here: https://code.claude.com/docs/en/model-config\nPersonally, I've been using exclusively 1M context for the last few months and loving it.\n\nYou can also customize your auto-compact threshold with the CLAUDE_CODE_AUTO_COMPACT_WINDOW env var.\n\nMore here: code.claude.com/docs/en/mode…\n",
+      "date": "Fri, 13 Mar 2026 17:51:07 GMT",
+      "url": "https://twitter.com/bcherny/status/2032514809418109438#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "🎁 Happy Friday - Opus 4.6 1M is now the default Opus model for Claude Code users on Max, Team, and Enterprise plans.\n\nPro and Sonnet users can opt in with /extra-usage.\n🎁 Happy Friday - Opus 4.6 1M is now the default Opus model for Claude Code users on Max, Team, and Enterprise plans.\n\nPro and Sonnet users can opt in with /extra-usage.\n\n\nClaude (@claudeai)\n\n1 million context window: Now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.\n\n\n\n\n\n— https://nitter.net/claudeai/status/20325",
+      "date": "Fri, 13 Mar 2026 17:51:07 GMT",
+      "url": "https://twitter.com/bcherny/status/2032514807388123255#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "Update: this is now rolled out to 100% of users\nUpdate: this is now rolled out to 100% of users\n\n\nBoris Cherny (@bcherny)\n\n🎶 I've been using voice mode to write much of my CLI code this last week\n\nCan't wait to hear what you think.\n\n\n\n— https://nitter.net/bcherny/status/2028629573722939789#m\n\n",
+      "date": "Thu, 12 Mar 2026 23:32:41 GMT",
+      "url": "https://twitter.com/bcherny/status/2032238378389840018#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Starting today, Claude no longer defaults to text. Claude is learning to choose the best medium for each response — based on the task, the data, and what's most useful for the person. Give it a try!\nStarting today, Claude no longer defaults to text. Claude is learning to choose the best medium for each response — based on the task, the data, and what's most useful for the person. Give it a try!\n\n\nClaude (@claudeai)\n\nClaude can now build interactive charts and diagrams, directly i",
+      "date": "Thu, 12 Mar 2026 16:51:18 GMT",
+      "url": "https://twitter.com/feldman/status/2032137366358401484#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Claude can now build interactive charts and diagrams, directly in the chat.\n\nAvailable today in beta on all plans, including free.\n\nTry it out: http://claude.ai\nClaude can now build interactive charts and diagrams, directly in the chat.\n\nAvailable today in beta on all plans, including free.\n\nTry it out: claude.ai\n\nVideo\n  \n",
+      "date": "Thu, 12 Mar 2026 15:59:16 GMT",
+      "url": "https://twitter.com/claudeai/status/2032124273587077133#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Claude for Excel and Claude for PowerPoint now sync together seamlessly.\n\nWhen you’ve got more than one file open, Claude shares the full context of your conversation between them.\n\nPull data from spreadsheets, build out tables, and update a deck — without re-explaining a step.\nClaude for Excel and Claude for PowerPoint now sync together seamlessly.\n\nWhen you’ve got more than one file open, Claude shares the full context of your conversation between them.\n\nPull data from spreadsh",
+      "date": "Wed, 11 Mar 2026 17:53:59 GMT",
+      "url": "https://twitter.com/claudeai/status/2031790754637717772#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: I've seen enough. Anthropic is the new default for businesses.\n\nSays latest Ramp AI Index.\nI've seen enough. Anthropic is the new default for businesses.\n\nSays latest Ramp AI Index.\n",
+      "date": "Wed, 11 Mar 2026 16:39:10 GMT",
+      "url": "https://twitter.com/arakharazian/status/2031771926557823225#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "btw\nbtw\n\n\nThariq (@trq212)\n\nWe just added /btw to Claude Code! \n\nUse it to have side chain conversations while Claude is working.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/trq212/status/2031506296697131352#m\n\n",
+      "date": "Wed, 11 Mar 2026 01:40:47 GMT",
+      "url": "https://twitter.com/bcherny/status/2031545840398119288#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "New in Claude Code: Code Review. A team of agents runs a deep review on every PR.\n\nWe built it for ourselves first. Code output per Anthropic engineer is up 200% this year and reviews were the bottleneck\n\nPersonally, I’ve been using it for a few weeks and have found it catches many real bugs that I would not have noticed otherwise\nNew in Claude Code: Code Review. A team of agents runs a deep review on every PR.\n\nWe built it for ourselves first. Code output per Anthropic engineer is up 200% this ",
+      "date": "Mon, 09 Mar 2026 19:27:06 GMT",
+      "url": "https://twitter.com/bcherny/status/2031089411820228645#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Learn more: https://code.claude.com/docs/en/scheduled-tasks\nLearn more: code.claude.com/docs/en/sche…\n",
+      "date": "Sat, 07 Mar 2026 08:09:29 GMT",
+      "url": "https://twitter.com/bcherny/status/2030194110221676663#m",
+      "source": "rss"
+    }
+  ],
   "summary": {
-    "summary": "Aucun tweet trouvé pour générer un résumé.",
+    "summary": "Erreur API OpenRouter (code 404)",
     "key_points": [],
     "trends": []
   },
   "stats": {
-    "total_tweets": 0,
-    "keywords": 3
+    "total_tweets": 20,
+    "accounts": 1
   }
 }
