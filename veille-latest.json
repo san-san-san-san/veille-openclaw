@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-21T08:26:48.595138",
+  "date": "2026-03-21T08:32:55.836130",
   "twitter": [
     {
       "username": "bcherny",
@@ -10,16 +10,16 @@
     },
     {
       "username": "bcherny",
-      "content": "Desktop and http://claude.ai should be feeling faster\nDesktop and claude.ai should be feeling faster\n\n\nFelix Rieseberg (@felixrieseberg)\n\nA small ship I love: We made Claude.ai and our desktop apps meaningful faster this week.\n\nWe moved our architecture from SSR to a static @vite_js & @tan_stack router setup that we can serve straight from workers at the edge. Time to first byte is down 65% at p75, prompts show up 50% sooner, navigation is snappier.\n\nWe're not done (not even close!) but we care ",
-      "date": "Sat, 21 Mar 2026 00:46:22 GMT",
-      "url": "https://twitter.com/bcherny/status/2035156025913782633#m",
+      "content": "RT by @bcherny: Today's ship: Projects in Cowork! Built in memory across tasks is super useful, as is having a shared folder & connections setup for a group of tasks.\nToday's ship: Projects in Cowork! Built in memory across tasks is super useful, as is having a shared folder &amp; connections setup for a group of tasks.\n",
+      "date": "Fri, 20 Mar 2026 18:50:04 GMT",
+      "url": "https://twitter.com/felixrieseberg/status/2035066361719005294#m",
       "source": "rss"
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: You can now schedule recurring cloud-based tasks on Claude Code.\n\nSet a repo (or repos), a schedule, and a prompt. Claude runs it via cloud infra on your schedule, so you don’t need to keep Claude Code running on your local machine.\nYou can now schedule recurring cloud-based tasks on Claude Code.\n\nSet a repo (or repos), a schedule, and a prompt. Claude runs it via cloud infra on your schedule, so you don’t need to keep Claude Code running on your local machine.\n\nVideo\n  \n",
-      "date": "Fri, 20 Mar 2026 22:35:06 GMT",
-      "url": "https://twitter.com/noahzweben/status/2035122989533163971#m",
+      "content": "Desktop and http://claude.ai should be feeling faster\nDesktop and claude.ai should be feeling faster\n\n\nFelix Rieseberg (@felixrieseberg)\n\nA small ship I love: We made Claude.ai and our desktop apps meaningful faster this week.\n\nWe moved our architecture from SSR to a static @vite_js & @tan_stack router setup that we can serve straight from workers at the edge. Time to first byte is down 65% at p75, prompts show up 50% sooner, navigation is snappier.\n\nWe're not done (not even close!) but we care ",
+      "date": "Sat, 21 Mar 2026 00:46:22 GMT",
+      "url": "https://twitter.com/bcherny/status/2035156025913782633#m",
       "source": "rss"
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Today's ship: Projects in Cowork! Built in memory across tasks is super useful, as is having a shared folder & connections setup for a group of tasks.\nToday's ship: Projects in Cowork! Built in memory across tasks is super useful, as is having a shared folder &amp; connections setup for a group of tasks.\n",
-      "date": "Fri, 20 Mar 2026 18:50:04 GMT",
-      "url": "https://twitter.com/felixrieseberg/status/2035066361719005294#m",
+      "content": "RT by @bcherny: You can now schedule recurring cloud-based tasks on Claude Code.\n\nSet a repo (or repos), a schedule, and a prompt. Claude runs it via cloud infra on your schedule, so you don’t need to keep Claude Code running on your local machine.\nYou can now schedule recurring cloud-based tasks on Claude Code.\n\nSet a repo (or repos), a schedule, and a prompt. Claude runs it via cloud infra on your schedule, so you don’t need to keep Claude Code running on your local machine.\n\nVideo\n  \n",
+      "date": "Fri, 20 Mar 2026 22:35:06 GMT",
+      "url": "https://twitter.com/noahzweben/status/2035122989533163971#m",
       "source": "rss"
     },
     {
@@ -59,13 +59,6 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: And another thing... Skills and a bunch of /slash commands (/clear, /compact) etc now work over mobile in Remote Control.  As a heads up we dont have auto-complete yet so better get those spelling-bee skills sharpened :)  \n\nUpdate to latest cc & mobile\nAnd another thing... Skills and a bunch of /slash commands (/clear, /compact) etc now work over mobile in Remote Control.  As a heads up we dont have auto-complete yet so better get those spelling-bee skills sharpened :)  \n\nUpdate ",
-      "date": "Thu, 19 Mar 2026 02:32:20 GMT",
-      "url": "https://twitter.com/noahzweben/status/2034457917555179977#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "RT by @bcherny: A few 🔥 Claude Code VSCode drops\n\n1. Remote Control in VSCode\nA few 🔥 Claude Code VSCode drops\n\n1. Remote Control in VSCode\n",
       "date": "Thu, 19 Mar 2026 02:09:56 GMT",
       "url": "https://twitter.com/noahzweben/status/2034452278971932695#m",
@@ -73,9 +66,9 @@
     },
     {
       "username": "bcherny",
-      "content": "Can’t wait for this!\nCan’t wait for this!\n\n\nClaude (@claudeai)\n\nOur developer conference Code with Claude returns this spring, this time in San Francisco, London, and Tokyo. \n\nJoin us for a full day of workshops, demos, and 1:1 office hours with teams behind Claude.\n\nRegister to watch from anywhere or apply to attend: claude.com/code-with-claude\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2034308517964956051#m\n\n",
-      "date": "Wed, 18 Mar 2026 18:20:18 GMT",
-      "url": "https://twitter.com/bcherny/status/2034334092666228770#m",
+      "content": "RT by @bcherny: And another thing... Skills and a bunch of /slash commands (/clear, /compact) etc now work over mobile in Remote Control.  As a heads up we dont have auto-complete yet so better get those spelling-bee skills sharpened :)  \n\nUpdate to latest cc & mobile\nAnd another thing... Skills and a bunch of /slash commands (/clear, /compact) etc now work over mobile in Remote Control.  As a heads up we dont have auto-complete yet so better get those spelling-bee skills sharpened :)  \n\nUpdate ",
+      "date": "Thu, 19 Mar 2026 02:32:20 GMT",
+      "url": "https://twitter.com/noahzweben/status/2034457917555179977#m",
       "source": "rss"
     },
     {
@@ -87,9 +80,9 @@
     },
     {
       "username": "bcherny",
-      "content": "You can now touch grass in Cowork, too 👏\nYou can now touch grass in Cowork, too 👏\n\n\nFelix Rieseberg (@felixrieseberg)\n\nWe're shipping a new feature in Claude Cowork as a research preview that I'm excited about: Dispatch!\n\nOne persistent conversation with Claude that runs on your computer. Message it from your phone. Come back to finished work. \n\nTo try it out, download Claude Desktop, then pair your phone.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/felixrieseberg/status/2034005731457044577#m\n\n",
-      "date": "Tue, 17 Mar 2026 21:44:10 GMT",
-      "url": "https://twitter.com/bcherny/status/2034023009032286422#m",
+      "content": "Can’t wait for this!\nCan’t wait for this!\n\n\nClaude (@claudeai)\n\nOur developer conference Code with Claude returns this spring, this time in San Francisco, London, and Tokyo. \n\nJoin us for a full day of workshops, demos, and 1:1 office hours with teams behind Claude.\n\nRegister to watch from anywhere or apply to attend: claude.com/code-with-claude\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2034308517964956051#m\n\n",
+      "date": "Wed, 18 Mar 2026 18:20:18 GMT",
+      "url": "https://twitter.com/bcherny/status/2034334092666228770#m",
       "source": "rss"
     },
     {
@@ -108,6 +101,13 @@
     },
     {
       "username": "bcherny",
+      "content": "You can now touch grass in Cowork, too 👏\nYou can now touch grass in Cowork, too 👏\n\n\nFelix Rieseberg (@felixrieseberg)\n\nWe're shipping a new feature in Claude Cowork as a research preview that I'm excited about: Dispatch!\n\nOne persistent conversation with Claude that runs on your computer. Message it from your phone. Come back to finished work. \n\nTo try it out, download Claude Desktop, then pair your phone.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/felixrieseberg/status/2034005731457044577#m\n\n",
+      "date": "Tue, 17 Mar 2026 21:44:10 GMT",
+      "url": "https://twitter.com/bcherny/status/2034023009032286422#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
       "content": "Really great writeup\nReally great writeup\n\n\nThariq (@trq212)\n\nx.com/i/article/203377262153…\n\n\n\n— https://nitter.net/trq212/status/2033949937936085378#m\n\n",
       "date": "Tue, 17 Mar 2026 16:57:19 GMT",
       "url": "https://twitter.com/bcherny/status/2033950823248429176#m",
@@ -118,6 +118,13 @@
       "content": "RT by @bcherny: Btw you can add `context: fork` to run a skill in an isolated subagent. The main context only sees the final result, not the intermediate tool calls\n\nIt gets a fresh context window with CLAUDE.md + your skill as the prompt. The `agent` field even lets you set the subagent type!\nBtw you can add `context: fork` to run a skill in an isolated subagent. The main context only sees the final result, not the intermediate tool calls\n\nIt gets a fresh context window with CLAUDE.md + your sk",
       "date": "Mon, 16 Mar 2026 17:55:51 GMT",
       "url": "https://twitter.com/lydiahallie/status/2033603164398883042#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Three years ago today.\nThree years ago today.\n",
+      "date": "Sat, 14 Mar 2026 11:56:59 GMT",
+      "url": "https://twitter.com/sammcallister/status/2032788075760308670#m",
       "source": "rss"
     },
     {
@@ -133,17 +140,10 @@
       "date": "Sat, 14 Mar 2026 20:52:29 GMT",
       "url": "https://twitter.com/bcherny/status/2032922838751928407#m",
       "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Three years ago today.\nThree years ago today.\n",
-      "date": "Sat, 14 Mar 2026 11:56:59 GMT",
-      "url": "https://twitter.com/sammcallister/status/2032788075760308670#m",
-      "source": "rss"
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
