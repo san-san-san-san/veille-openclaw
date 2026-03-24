@@ -1,154 +1,147 @@
 {
-  "date": "2026-03-24T08:53:07.293443",
-  "twitter": [
+  "date": "2026-03-24T08:57:43.956163",
+  "twitter": [],
+  "reddit": [],
+  "hackernews": [
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Use /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use these internally to automatically resolve CI failures, push doc updates, and generally power automations that you want to exists beyond a closed laptop\nUse /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use these internally to automatically resolve CI failures, push doc updates, and generally power automations that you want to exists bey",
-      "date": "Mon, 23 Mar 2026 17:13:30 GMT",
-      "url": "https://twitter.com/noahzweben/status/2036129220959805859#m",
-      "source": "rss"
+      "title": "Google restricting Google AI Pro/Ultra subscribers for using OpenClaw",
+      "author": "srigi",
+      "url": "https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778",
+      "points": 802,
+      "comments": 705,
+      "created": "2026-02-22T23:07:55Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "Little known fact, the Anthropic Labs team (the team I joined Anthropic to be on) shipped:\n\n- MCP\n- Skills\n- Claude Desktop app\n- Claude Code\n\nIt was just a few of us, shipping fast, trying to keep pace with what the model was capable of.\n\nThose early Desktop computer use prototypes, back in the Sonnet 3.6 days, felt clunky and slow. But it was easy to squint and imagine all the ways people might use it once it got really good.\n\nFast forward to today. I am so excited to release full computer use",
-      "date": "Tue, 24 Mar 2026 03:38:50 GMT",
-      "url": "https://twitter.com/bcherny/status/2036286592089022699#m",
-      "source": "rss"
+      "title": "OpenClaw – Moltbot Renamed Again",
+      "author": "ed",
+      "url": "https://openclaw.ai/blog/introducing-openclaw",
+      "points": 667,
+      "comments": 382,
+      "created": "2026-01-30T05:14:48Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: You can now enable Claude to use your computer to complete tasks.\n\nIt opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk.\n\nResearch preview in Claude Cowork and Claude Code, macOS only.\nYou can now enable Claude to use your computer to complete tasks.\n\nIt opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk.\n\nResearch preview in Claude Cowork and Claude Code, macOS only.\n\nVideo\n  \n",
-      "date": "Mon, 23 Mar 2026 21:38:01 GMT",
-      "url": "https://twitter.com/claudeai/status/2036195789601374705#m",
-      "source": "rss"
+      "title": "OpenClaw is what Apple intelligence should have been",
+      "author": "jakequist",
+      "url": "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been",
+      "points": 518,
+      "comments": 417,
+      "created": "2026-02-05T00:28:06Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Loops now run for up to 7 days instead of 3. \n\nLet me know what you’re /looping on!\nLoops now run for up to 7 days instead of 3. \n\nLet me know what you’re /looping on!\n\n\nNoah Zweben (@noahzweben)\n\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n\n\n\n\n— https://nitter.net/noahzweben/status/2030091232698061202#m\n\n",
-      "date": "Sun, 22 Mar 2026 17:14:09 GMT",
-      "url": "https://twitter.com/noahzweben/status/2035766998320456173#m",
-      "source": "rss"
+      "title": "OpenClaw is a security nightmare dressed up as a daydream",
+      "author": "fs_software",
+      "url": "https://composio.dev/content/openclaw-security-and-vulnerabilities",
+      "points": 391,
+      "comments": 275,
+      "created": "2026-03-22T17:35:28Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: we're testing a new version of /init based on your feedback- it should interview you and help setup skills, hooks, etc.\n\nyou can enable it with this env_var flag:\n\nCLAUDE_CODE_NEW_INIT=1 claude\n\nwould love your feedback!\nwe're testing a new version of /init based on your feedback- it should interview you and help setup skills, hooks, etc.\n\nyou can enable it with this env_var flag:\n\nCLAUDE_CODE_NEW_INIT=1 claude\n\nwould love your feedback!\n\n\nThariq (@trq212)\n\nI want to make /init m",
-      "date": "Sun, 22 Mar 2026 19:24:31 GMT",
-      "url": "https://twitter.com/trq212/status/2035799806640115806#m",
-      "source": "rss"
+      "title": "OpenClaw is changing my life",
+      "author": "novoreorx",
+      "url": "https://reorx.com/blog/openclaw-is-changing-my-life/",
+      "points": 340,
+      "comments": 513,
+      "created": "2026-02-08T06:21:27Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: You can now set effort level in skills/slash commands!\n\nThis controls how long the model thinks before answering, and overrides your session default\nYou can now set effort level in skills/slash commands!\n\nThis controls how long the model thinks before answering, and overrides your session default\n\nVideo\n  \n",
-      "date": "Sat, 21 Mar 2026 18:42:54 GMT",
-      "url": "https://twitter.com/lydiahallie/status/2035426943777263751#m",
-      "source": "rss"
+      "title": "Claude 3.7 Sonnet and Claude Code",
+      "author": "bakugo",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "points": 2127,
+      "comments": 963,
+      "created": "2025-02-24T18:28:59Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: I put a lot of heart into my technical writing, I hope it's useful to you all. \n\n📌 Here's a pinned thread of everything I've written.\n\n(much of this will be posted on the Claude blog soon as well)\nI put a lot of heart into my technical writing, I hope it's useful to you all. \n\n📌 Here's a pinned thread of everything I've written.\n\n(much of this will be posted on the Claude blog soon as well)",
-      "date": "Sat, 21 Mar 2026 15:07:25 GMT",
-      "url": "https://twitter.com/trq212/status/2035372716820218141#m",
-      "source": "rss"
+      "title": "Cowork: Claude Code for the rest of your work",
+      "author": "adocomplete",
+      "url": "https://claude.com/blog/cowork-research-preview",
+      "points": 1298,
+      "comments": 565,
+      "created": "2026-01-12T19:27:19Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "Join our team\nJoin our team\n\n\nReem Ateyeh (@reem_a)\n\nI'm hiring someone to join my team at Anthropic to lead Claude Code comms.\n\nThis is not a role for someone who wants to run an old playbook. You'll need to be a Claude Code super user, understand developers and dev tools, and have great taste. You'll work hard, learn a lot, and ship with the best people around.\n\nNon-traditional comms paths welcome. My DMs are open!\n\n\n\n— https://nitter.net/reem_a/status/2034731159385776320#m\n\n",
-      "date": "Sat, 21 Mar 2026 00:49:57 GMT",
-      "url": "https://twitter.com/bcherny/status/2035156929077493770#m",
-      "source": "rss"
+      "title": "Tell HN: I'm 60 years old. Claude Code has re-ignited a passion",
+      "author": "shannoncc",
+      "url": "https://news.ycombinator.com/item?id=47282777",
+      "points": 1086,
+      "comments": 989,
+      "created": "2026-03-07T00:05:06Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Today's ship: Projects in Cowork! Built in memory across tasks is super useful, as is having a shared folder & connections setup for a group of tasks.\nToday's ship: Projects in Cowork! Built in memory across tasks is super useful, as is having a shared folder &amp; connections setup for a group of tasks.\n",
-      "date": "Fri, 20 Mar 2026 18:50:04 GMT",
-      "url": "https://twitter.com/felixrieseberg/status/2035066361719005294#m",
-      "source": "rss"
+      "title": "Claude Code is being dumbed down?",
+      "author": "WXLCKNO",
+      "url": "https://symmetrybreak.ing/blog/claude-code-is-being-dumbed-down/",
+      "points": 1085,
+      "comments": 702,
+      "created": "2026-02-11T18:23:39Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "Desktop and http://claude.ai should be feeling faster\nDesktop and claude.ai should be feeling faster\n\n\nFelix Rieseberg (@felixrieseberg)\n\nA small ship I love: We made Claude.ai and our desktop apps meaningful faster this week.\n\nWe moved our architecture from SSR to a static @vite_js & @tan_stack router setup that we can serve straight from workers at the edge. Time to first byte is down 65% at p75, prompts show up 50% sooner, navigation is snappier.\n\nWe're not done (not even close!) but we care ",
-      "date": "Sat, 21 Mar 2026 00:46:22 GMT",
-      "url": "https://twitter.com/bcherny/status/2035156025913782633#m",
-      "source": "rss"
+      "title": "Warcraft III Peon Voice Notifications for Claude Code",
+      "author": "doppp",
+      "url": "https://github.com/tonyyont/peon-ping",
+      "points": 1006,
+      "comments": 301,
+      "created": "2026-02-12T05:18:49Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: The PM playbook was built on an assumption that the technology underneath your product is roughly stable\n\nWith the current pace of model progress, this is no longer true. Here's how we've evolved the PM role:\nThe PM playbook was built on an assumption that the technology underneath your product is roughly stable\n\nWith the current pace of model progress, this is no longer true. Here's how we've evolved the PM role:",
-      "date": "Fri, 20 Mar 2026 21:21:10 GMT",
-      "url": "https://twitter.com/_catwu/status/2035104384007422347#m",
-      "source": "rss"
+      "title": "Anthropic Claude 3.5 can create icalendar files, so I did this",
+      "author": "gw5815",
+      "url": "https://gregsramblings.com/stupid-but-useful-ai-tricks-creating-calendar-entries-from-an-image-using-anthropic-claude-35",
+      "points": 367,
+      "comments": 170,
+      "created": "2024-08-25T02:27:51Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Claude Code on desktop lets you select DOM elements directly, much easier than describing which component you want updated!\n\nClaude gets the tag, classes, key styles, surrounding HTML, and a cropped screenshot. React apps also get the source file, component name and props\nClaude Code on desktop lets you select DOM elements directly, much easier than describing which component you want updated!\n\nClaude gets the tag, classes, key styles, surrounding HTML, and a cropped screenshot. ",
-      "date": "Fri, 20 Mar 2026 20:18:06 GMT",
-      "url": "https://twitter.com/lydiahallie/status/2035088515332284651#m",
-      "source": "rss"
+      "title": "Meet “Claude”: Anthropic’s rival to ChatGPT",
+      "author": "goodside",
+      "url": "https://scale.com/blog/chatgpt-vs-claude",
+      "points": 188,
+      "comments": 156,
+      "created": "2023-01-18T06:28:52Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: You can now schedule recurring cloud-based tasks on Claude Code.\n\nSet a repo (or repos), a schedule, and a prompt. Claude runs it via cloud infra on your schedule, so you don’t need to keep Claude Code running on your local machine.\nYou can now schedule recurring cloud-based tasks on Claude Code.\n\nSet a repo (or repos), a schedule, and a prompt. Claude runs it via cloud infra on your schedule, so you don’t need to keep Claude Code running on your local machine.\n\nVideo\n  \n",
-      "date": "Fri, 20 Mar 2026 22:35:06 GMT",
-      "url": "https://twitter.com/noahzweben/status/2035122989533163971#m",
-      "source": "rss"
+      "title": "Anthropic Introduces Claude Projects",
+      "author": "throwup238",
+      "url": "https://support.anthropic.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+      "points": 149,
+      "comments": 56,
+      "created": "2024-06-25T17:04:18Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "Let us know what you think!\nLet us know what you think!\n\n\nThariq (@trq212)\n\nWe just released Claude Code channels, which allows you to control your Claude Code session through select MCPs, starting with Telegram and Discord. \n\nUse this to message Claude Code directly from your phone.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/trq212/status/2034761016320696565#m\n\n",
-      "date": "Fri, 20 Mar 2026 01:09:02 GMT",
-      "url": "https://twitter.com/bcherny/status/2034799341429272937#m",
-      "source": "rss"
+      "title": "Anthropic's Claude is said to improve on ChatGPT, but still has limitations",
+      "author": "metadat",
+      "url": "https://techcrunch.com/2023/01/09/anthropics-claude-improves-on-chatgpt-but-still-suffers-from-limitations/",
+      "points": 81,
+      "comments": 51,
+      "created": "2023-01-10T21:00:01Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Claude Cowork is mind-blowing.\n\nI still cannot believe you can do this on your phone and then come back to your computer to a complete report on the best plane tickets to buy.\n\nI wonder where we'll be by the end of the year.\nClaude Cowork is mind-blowing.\n\nI still cannot believe you can do this on your phone and then come back to your computer to a complete report on the best plane tickets to buy.\n\nI wonder where we'll be by the end of the year.\n",
-      "date": "Thu, 19 Mar 2026 12:35:05 GMT",
-      "url": "https://twitter.com/svpino/status/2034609603619803592#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: A few 🔥 Claude Code VSCode drops\n\n1. Remote Control in VSCode\nA few 🔥 Claude Code VSCode drops\n\n1. Remote Control in VSCode\n",
-      "date": "Thu, 19 Mar 2026 02:09:56 GMT",
-      "url": "https://twitter.com/noahzweben/status/2034452278971932695#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: And another thing... Skills and a bunch of /slash commands (/clear, /compact) etc now work over mobile in Remote Control.  As a heads up we dont have auto-complete yet so better get those spelling-bee skills sharpened :)  \n\nUpdate to latest cc & mobile\nAnd another thing... Skills and a bunch of /slash commands (/clear, /compact) etc now work over mobile in Remote Control.  As a heads up we dont have auto-complete yet so better get those spelling-bee skills sharpened :)  \n\nUpdate ",
-      "date": "Thu, 19 Mar 2026 02:32:20 GMT",
-      "url": "https://twitter.com/noahzweben/status/2034457917555179977#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Our developer conference Code with Claude returns this spring, this time in San Francisco, London, and Tokyo. \n\nJoin us for a full day of workshops, demos, and 1:1 office hours with teams behind Claude.\n\nRegister to watch from anywhere or apply to attend: https://claude.com/code-with-claude\nOur developer conference Code with Claude returns this spring, this time in San Francisco, London, and Tokyo. \n\nJoin us for a full day of workshops, demos, and 1:1 office hours with teams behi",
-      "date": "Wed, 18 Mar 2026 16:38:40 GMT",
-      "url": "https://twitter.com/claudeai/status/2034308517964956051#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "Can’t wait for this!\nCan’t wait for this!\n\n\nClaude (@claudeai)\n\nOur developer conference Code with Claude returns this spring, this time in San Francisco, London, and Tokyo. \n\nJoin us for a full day of workshops, demos, and 1:1 office hours with teams behind Claude.\n\nRegister to watch from anywhere or apply to attend: claude.com/code-with-claude\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2034308517964956051#m\n\n",
-      "date": "Wed, 18 Mar 2026 18:20:18 GMT",
-      "url": "https://twitter.com/bcherny/status/2034334092666228770#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: heard you like context?\n\nOpus 4.6 1M context is out for Max/Teams/Enterprise on desktop\nheard you like context?\n\nOpus 4.6 1M context is out for Max/Teams/Enterprise on desktop\n",
-      "date": "Tue, 17 Mar 2026 20:05:26 GMT",
-      "url": "https://twitter.com/amorriscode/status/2033998163074551961#m",
-      "source": "rss"
+      "title": "Why Anthropic's Claude still hasn't beaten Pokémon",
+      "author": "Workaccount2",
+      "url": "https://arstechnica.com/ai/2025/03/why-anthropics-claude-still-hasnt-beaten-pokemon/",
+      "points": 53,
+      "comments": 65,
+      "created": "2025-03-24T15:07:37Z",
+      "keyword": "anthropic claude"
     }
   ],
   "summary": {
-    "summary": "Résumé IA non disponible (clé API manquante)",
+    "summary": "Erreur lors de la génération du résumé.",
     "key_points": [],
     "trends": []
-  },
-  "stats": {
-    "total_tweets": 20,
-    "accounts": 1
   }
 }
