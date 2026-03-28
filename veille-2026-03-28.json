@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T08:26:19.477406",
+  "date": "2026-03-28T08:33:42.811313",
   "twitter": [
     {
       "username": "bcherny",
@@ -143,7 +143,7 @@
     }
   ],
   "summary": {
-    "summary": "Résumé IA non disponible (clé API manquante)",
+    "summary": "Erreur API OpenRouter (code 404)",
     "key_points": [],
     "trends": []
   },
