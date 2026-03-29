@@ -1,18 +1,18 @@
 {
-  "date": "2026-03-29T08:34:26.687860",
+  "date": "2026-03-29T08:39:33.651804",
   "twitter": [
-    {
-      "username": "bcherny",
-      "content": "A weird part of working at Anthropic: getting a few of these each day\nA weird part of working at Anthropic: getting a few of these each day\n",
-      "date": "Sun, 29 Mar 2026 00:51:51 GMT",
-      "url": "https://twitter.com/bcherny/status/2038056509805142383#m",
-      "source": "rss"
-    },
     {
       "username": "bcherny",
       "content": "RT by @bcherny: Claude Code now supports `\"if\"` conditions in hooks, which skips the hook if the command doesn't match\n\nThis can save minutes in long sessions in repos that use hooks meant only for one command\nClaude Code now supports `\"if\"` conditions in hooks, which skips the hook if the command doesn't match\n\nThis can save minutes in long sessions in repos that use hooks meant only for one command\n",
       "date": "Fri, 27 Mar 2026 23:36:19 GMT",
       "url": "https://twitter.com/jarredsumner/status/2037675111172743184#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "A weird part of working at Anthropic: getting a few of these each day\nA weird part of working at Anthropic: getting a few of these each day\n",
+      "date": "Sun, 29 Mar 2026 00:51:51 GMT",
+      "url": "https://twitter.com/bcherny/status/2038056509805142383#m",
       "source": "rss"
     },
     {
@@ -31,13 +31,6 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: imessage is now available as a channel!\nimessage is now available as a channel!\n\n\nkenneth (@neilhtennek)\n\ni bought a mac mini so i could have blue bubbles when texting claude and it started roasting me...\n\ntry the imessage plugin for claude code today with /plugin install imessage@claude-plugins-official\n\n\n\n\n\n\n\n— https://nitter.net/neilhtennek/status/2036865501658571137#m\n\n",
-      "date": "Thu, 26 Mar 2026 00:13:17 GMT",
-      "url": "https://twitter.com/trq212/status/2036959638646866021#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
       "content": "RT by @bcherny: New on the Engineering Blog: How we designed Claude Code auto mode.\n\nMany Claude Code users let Claude work without permission prompts. Auto mode is a safer middle ground: we built and tested classifiers that make approval decisions instead.\n\nRead more: https://www.anthropic.com/engineering/claude-code-auto-mode\nNew on the Engineering Blog: How we designed Claude Code auto mode.\n\nMany Claude Code users let Claude work without permission prompts. Auto mode is a safer middle ground",
       "date": "Wed, 25 Mar 2026 23:14:21 GMT",
       "url": "https://twitter.com/AnthropicAI/status/2036944806317088921#m",
@@ -45,9 +38,23 @@
     },
     {
       "username": "bcherny",
+      "content": "RT by @bcherny: imessage is now available as a channel!\nimessage is now available as a channel!\n\n\nkenneth (@neilhtennek)\n\ni bought a mac mini so i could have blue bubbles when texting claude and it started roasting me...\n\ntry the imessage plugin for claude code today with /plugin install imessage@claude-plugins-official\n\n\n\n\n\n\n\n— https://nitter.net/neilhtennek/status/2036865501658571137#m\n\n",
+      "date": "Thu, 26 Mar 2026 00:13:17 GMT",
+      "url": "https://twitter.com/trq212/status/2036959638646866021#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
       "content": "RT by @bcherny: if you're bored waiting for claude to finish doing work, start another session. life is too short to be bored.\nif you're bored waiting for claude to finish doing work, start another session. life is too short to be bored.",
       "date": "Wed, 25 Mar 2026 04:09:28 GMT",
       "url": "https://twitter.com/amorriscode/status/2036656689890623623#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: New on the Anthropic Engineering Blog: \n\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.\n\nRead more: https://www.anthropic.com/engineering/harness-design-long-running-apps\nNew on the Anthropic Engineering Blog: \n\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.\n\nRead more: anthropic.com/engineering/ha…\n",
+      "date": "Tue, 24 Mar 2026 16:31:29 GMT",
+      "url": "https://twitter.com/AnthropicAI/status/2036481033621623056#m",
       "source": "rss"
     },
     {
@@ -66,6 +73,13 @@
     },
     {
       "username": "bcherny",
+      "content": "RT by @bcherny: Over the last 60 days, Claude Code startup time got 2.8x faster & Claude Agent SDK 5.1x faster - while shipping tons of new features\nOver the last 60 days, Claude Code startup time got 2.8x faster &amp; Claude Agent SDK 5.1x faster - while shipping tons of new features\n",
+      "date": "Tue, 24 Mar 2026 07:10:49 GMT",
+      "url": "https://twitter.com/jarredsumner/status/2036339940670448035#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
       "content": "no 👏 more 👏 permission prompts 👏\nno 👏 more 👏 permission prompts 👏\n\n\nClaude (@claudeai)\n\nNew in Claude Code: auto mode.\n\nInstead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make permission decisions on your behalf.\n\nSafeguards check each action before it runs.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2036503582166393240#m\n\n",
       "date": "Tue, 24 Mar 2026 21:26:26 GMT",
       "url": "https://twitter.com/bcherny/status/2036555259997462541#m",
@@ -73,16 +87,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: New on the Anthropic Engineering Blog: \n\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.\n\nRead more: https://www.anthropic.com/engineering/harness-design-long-running-apps\nNew on the Anthropic Engineering Blog: \n\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.\n\nRead more: anthropic.com/engineering/ha…\n",
-      "date": "Tue, 24 Mar 2026 16:31:29 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2036481033621623056#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Over the last 60 days, Claude Code startup time got 2.8x faster & Claude Agent SDK 5.1x faster - while shipping tons of new features\nOver the last 60 days, Claude Code startup time got 2.8x faster &amp; Claude Agent SDK 5.1x faster - while shipping tons of new features\n",
-      "date": "Tue, 24 Mar 2026 07:10:49 GMT",
-      "url": "https://twitter.com/jarredsumner/status/2036339940670448035#m",
+      "content": "RT by @bcherny: Use /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use these internally to automatically resolve CI failures, push doc updates, and generally power automations that you want to exists beyond a closed laptop\nUse /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use these internally to automatically resolve CI failures, push doc updates, and generally power automations that you want to exists bey",
+      "date": "Mon, 23 Mar 2026 17:13:30 GMT",
+      "url": "https://twitter.com/noahzweben/status/2036129220959805859#m",
       "source": "rss"
     },
     {
@@ -101,9 +108,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Use /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use these internally to automatically resolve CI failures, push doc updates, and generally power automations that you want to exists beyond a closed laptop\nUse /schedule to create recurring cloud-based jobs for Claude, directly from the terminal. \n\nWe use these internally to automatically resolve CI failures, push doc updates, and generally power automations that you want to exists bey",
-      "date": "Mon, 23 Mar 2026 17:13:30 GMT",
-      "url": "https://twitter.com/noahzweben/status/2036129220959805859#m",
+      "content": "RT by @bcherny: Loops now run for up to 7 days instead of 3. \n\nLet me know what you’re /looping on!\nLoops now run for up to 7 days instead of 3. \n\nLet me know what you’re /looping on!\n\n\nNoah Zweben (@noahzweben)\n\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n\n\n\n\n— https://nitter.net/noahzweben/status/2030091232698061202#m\n\n",
+      "date": "Sun, 22 Mar 2026 17:14:09 GMT",
+      "url": "https://twitter.com/noahzweben/status/2035766998320456173#m",
       "source": "rss"
     },
     {
@@ -111,13 +118,6 @@
       "content": "RT by @bcherny: we're testing a new version of /init based on your feedback- it should interview you and help setup skills, hooks, etc.\n\nyou can enable it with this env_var flag:\n\nCLAUDE_CODE_NEW_INIT=1 claude\n\nwould love your feedback!\nwe're testing a new version of /init based on your feedback- it should interview you and help setup skills, hooks, etc.\n\nyou can enable it with this env_var flag:\n\nCLAUDE_CODE_NEW_INIT=1 claude\n\nwould love your feedback!\n\n\nThariq (@trq212)\n\nI want to make /init m",
       "date": "Sun, 22 Mar 2026 19:24:31 GMT",
       "url": "https://twitter.com/trq212/status/2035799806640115806#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Loops now run for up to 7 days instead of 3. \n\nLet me know what you’re /looping on!\nLoops now run for up to 7 days instead of 3. \n\nLet me know what you’re /looping on!\n\n\nNoah Zweben (@noahzweben)\n\n/loop 5m make sure this PR passes CI\n\nWhile loops for agents have dropped!\n\ncode.claude.com/docs/en/sche…\n\n\n\n\n— https://nitter.net/noahzweben/status/2030091232698061202#m\n\n",
-      "date": "Sun, 22 Mar 2026 17:14:09 GMT",
-      "url": "https://twitter.com/noahzweben/status/2035766998320456173#m",
       "source": "rss"
     },
     {
@@ -143,7 +143,7 @@
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
