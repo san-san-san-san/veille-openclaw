@@ -1,6 +1,13 @@
 {
-  "date": "2026-03-31T08:52:03.054256",
+  "date": "2026-03-31T08:59:01.668499",
   "twitter": [
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Dispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatch better for coding use-case?\nDispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatc",
+      "date": "Mon, 30 Mar 2026 02:31:47 GMT",
+      "url": "https://twitter.com/noahzweben/status/2038444046109315553#m",
+      "source": "rss"
+    },
     {
       "username": "bcherny",
       "content": "R to @bcherny: Hope this was useful! I wanted to keep going but had to stop myself. Will post more soon.\n\nWhat are your favorite underrated Claude Code features?\nHope this was useful! I wanted to keep going but had to stop myself. Will post more soon.\n\nWhat are your favorite underrated Claude Code features?",
@@ -122,9 +129,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Dispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatch better for coding use-case?\nDispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatc",
-      "date": "Mon, 30 Mar 2026 02:31:47 GMT",
-      "url": "https://twitter.com/noahzweben/status/2038444046109315553#m",
+      "content": "RT by @bcherny: Claude Code now supports `\"if\"` conditions in hooks, which skips the hook if the command doesn't match\n\nThis can save minutes in long sessions in repos that use hooks meant only for one command\nClaude Code now supports `\"if\"` conditions in hooks, which skips the hook if the command doesn't match\n\nThis can save minutes in long sessions in repos that use hooks meant only for one command\n",
+      "date": "Fri, 27 Mar 2026 23:36:19 GMT",
+      "url": "https://twitter.com/jarredsumner/status/2037675111172743184#m",
       "source": "rss"
     },
     {
@@ -133,17 +140,10 @@
       "date": "Sun, 29 Mar 2026 00:51:51 GMT",
       "url": "https://twitter.com/bcherny/status/2038056509805142383#m",
       "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Claude Code now supports `\"if\"` conditions in hooks, which skips the hook if the command doesn't match\n\nThis can save minutes in long sessions in repos that use hooks meant only for one command\nClaude Code now supports `\"if\"` conditions in hooks, which skips the hook if the command doesn't match\n\nThis can save minutes in long sessions in repos that use hooks meant only for one command\n",
-      "date": "Fri, 27 Mar 2026 23:36:19 GMT",
-      "url": "https://twitter.com/jarredsumner/status/2037675111172743184#m",
-      "source": "rss"
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
