@@ -1,6 +1,13 @@
 {
-  "date": "2026-04-01T08:57:47.463723",
+  "date": "2026-04-01T09:04:00.660911",
   "twitter": [
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Auto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.\nAuto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.\n\n\nClaude (@claudeai)\n\nNew in Claude Code: auto mode.\n\nInstead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make p",
+      "date": "Mon, 30 Mar 2026 19:03:59 GMT",
+      "url": "https://twitter.com/claudeai/status/2038693742094246032#m",
+      "source": "rss"
+    },
     {
       "username": "bcherny",
       "content": "RT by @bcherny: We've made setting up http://claude.ai/code with GitHub much easier!\n\nYou can now run /web-setup in a local `claude` session to use your local GitHub credentials on the web\nWe've made setting up claude.ai/code with GitHub much easier!\n\nYou can now run /web-setup in a local `claude` session to use your local GitHub credentials on the web\n\nVideo\n  \n",
@@ -10,9 +17,9 @@
     },
     {
       "username": "bcherny",
-      "content": "RT by @bcherny: Auto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.\nAuto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.\n\n\nClaude (@claudeai)\n\nNew in Claude Code: auto mode.\n\nInstead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make p",
-      "date": "Mon, 30 Mar 2026 19:03:59 GMT",
-      "url": "https://twitter.com/claudeai/status/2038693742094246032#m",
+      "content": "RT by @bcherny: Dispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatch better for coding use-case?\nDispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatc",
+      "date": "Mon, 30 Mar 2026 02:31:47 GMT",
+      "url": "https://twitter.com/noahzweben/status/2038444046109315553#m",
       "source": "rss"
     },
     {
@@ -133,17 +140,10 @@
       "date": "Mon, 30 Mar 2026 03:12:41 GMT",
       "url": "https://twitter.com/bcherny/status/2038454336355999749#m",
       "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Dispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatch better for coding use-case?\nDispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatc",
-      "date": "Mon, 30 Mar 2026 02:31:47 GMT",
-      "url": "https://twitter.com/noahzweben/status/2038444046109315553#m",
-      "source": "rss"
     }
   ],
   "summary": {
-    "summary": "Erreur API OpenRouter (code 404)",
+    "summary": "Résumé IA non disponible (clé API manquante)",
     "key_points": [],
     "trends": []
   },
