@@ -1,13 +1,154 @@
 {
-  "date": "2026-04-06T09:03:21.768665",
-  "twitter": [],
+  "date": "2026-04-06T09:03:47.611468",
+  "twitter": [
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: We want to be intentional in managing our growth to continue to serve our customers sustainably long-term. This change is a step toward that.\nWe want to be intentional in managing our growth to continue to serve our customers sustainably long-term. This change is a step toward that.",
+      "date": "Fri, 03 Apr 2026 23:14:56 GMT",
+      "url": "https://twitter.com/bcherny/status/2040206444428189755#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Subscribers get a one-time credit equal to your monthly plan cost. If you need more, you can now buy discounted usage bundles. To request a full refund, look for a link in your email tomorrow. https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account\nSubscribers get a one-time credit equal to your monthly plan cost. If you need more, you can now buy discounted usage bundles. To request a full refund, look for a link in your email tomorrow. support.claude.co",
+      "date": "Fri, 03 Apr 2026 23:14:55 GMT",
+      "url": "https://twitter.com/bcherny/status/2040206443094446558#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: We’ve been working hard to meet the increase in demand for Claude, and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioritizing our customers using our products and API.\nWe’ve been working hard to meet the increase in demand for Claude, and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioriti",
+      "date": "Fri, 03 Apr 2026 23:14:55 GMT",
+      "url": "https://twitter.com/bcherny/status/2040206441756471399#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "Starting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\n\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.\nStarting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\n\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.",
+      "date": "Fri, 03 Apr 2026 23:14:55 GMT",
+      "url": "https://twitter.com/bcherny/status/2040206440556826908#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Incredible to see  @ForeverSolar using the Claude Agent SDK to drive permitting wins in the solar industry\n\n\"Claude Agent SDK scored 97.5% on our benchmark—we couldn't break it...Other frameworks hit 20–60% at higher cost.\"\n\nhttps://claude.com/customers/freedom-forever\n\nYay green energy!\nIncredible to see  @ForeverSolar using the Claude Agent SDK to drive permitting wins in the solar industry\n\n\"Claude Agent SDK scored 97.5% on our benchmark—we couldn't break it...Other frameworks",
+      "date": "Fri, 03 Apr 2026 21:40:28 GMT",
+      "url": "https://twitter.com/noahzweben/status/2040182670974660867#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Computer use in Claude Cowork and Claude Code Desktop is now available on Windows.\nComputer use in Claude Cowork and Claude Code Desktop is now available on Windows.\n\n\nClaude (@claudeai)\n\nYou can now enable Claude to use your computer to complete tasks.\n\nIt opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk.\n\nResearch preview in Claude Cowork and Claude Code, macOS only.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2036195",
+      "date": "Thu, 02 Apr 2026 22:46:27 GMT",
+      "url": "https://twitter.com/claudeai/status/2039836891508261106#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Let us know what you think! We're actively iterating on this new mode, and can't wait to hear your feedback.\n\nhttps://code.claude.com/docs/en/fullscreen\nLet us know what you think! We're actively iterating on this new mode, and can't wait to hear your feedback.\n\ncode.claude.com/docs/en/full…\n",
+      "date": "Wed, 01 Apr 2026 19:16:10 GMT",
+      "url": "https://twitter.com/bcherny/status/2039421583178219682#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Our new experimental NO_FLICKER renderer solves this by virtualizing the entire viewport.\n\nWe hook into keyboard and mouse events to make scrolling work, and we virtualize the viewport to move control over what is rendered into the application layer.\n\nThis approach has tradeoffs, but feels surprisingly good in practice. It is a way of living within the constraints of a terminal renderer, while giving you a richer and more performant user experience.\nOur new experimental NO_FLICKER",
+      "date": "Wed, 01 Apr 2026 19:16:10 GMT",
+      "url": "https://twitter.com/bcherny/status/2039421581907374320#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: There's a lot of tradeoffs when building for the terminal. Unlike web, mobile, and desktop, terminal have fairly restrictive instruction sets for rendering: ANSI escape codes.\n\nThere's an ANSI code for \"move cursor to (x, y)\", another for \"write 'foo'\", etc. It feels a little like writing Assembly.\n\nBecause there is no ANSI code for \"move the cursor to (x, -y)\" to repaint a row that is out of the viewport, we have to use the code for \"clear the entire screen\" -- aka, flickering.\nT",
+      "date": "Wed, 01 Apr 2026 19:16:10 GMT",
+      "url": "https://twitter.com/bcherny/status/2039421580435222576#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: There's also downsides:\n- Native cmd-f doesn't work. Instead, hit ctrl+o then / to search the transcript (or, use ctrl-r for reverse search)\n- Native copy-paste doesn't work. Instead, we copy to the clipboard by default when you make a selection. You can configure this in your settings.json to use ctrl+c instead, if you prefer.\n- Scrolling gravity varies by device, and we are in the process of tuning the physics to make it feel good on every terminal\nThere's also downsides:\n- Nati",
+      "date": "Wed, 01 Apr 2026 19:16:09 GMT",
+      "url": "https://twitter.com/bcherny/status/2039421579042681092#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Some of the upsides:\n- No more flickering\n- No more jumping\n- Constant memory and CPU usage as the conversation grows\n- Mouse support! You can now click to move your cursor within the input box. Some other UI elements are also clickable now.\n- Nicer selection behavior. eg. when you select code, we no longer include line numbers and UI elements in the selection\nSome of the upsides:\n- No more flickering\n- No more jumping\n- Constant memory and CPU usage as the conversation grows\n- Mo",
+      "date": "Wed, 01 Apr 2026 19:16:09 GMT",
+      "url": "https://twitter.com/bcherny/status/2039421577406918789#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "Today we're excited to announce NO_FLICKER mode for Claude Code in the terminal\n\nIt uses an experimental new renderer that we're excited about. The renderer is early and has tradeoffs, but already we've found that most internal users prefer it over the old renderer. It also supports mouse events (yes, in a terminal).\n\nTry it: CLAUDE_CODE_NO_FLICKER=1 claude\nToday we're excited to announce NO_FLICKER mode for Claude Code in the terminal\n\nIt uses an experimental new renderer that we're excited abo",
+      "date": "Wed, 01 Apr 2026 19:16:08 GMT",
+      "url": "https://twitter.com/bcherny/status/2039421575422980329#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: You can now set the permission mode for coding tasks in Dispatch. \n\nWe recommend using Auto mode for the safest and most seamless Dispatch experience but any of your allowed permissions are available. \n\nNote if you use Bypass Permissions you need to approve session start.\nYou can now set the permission mode for coding tasks in Dispatch. \n\nWe recommend using Auto mode for the safest and most seamless Dispatch experience but any of your allowed permissions are available. \n\nNote if ",
+      "date": "Wed, 01 Apr 2026 18:18:14 GMT",
+      "url": "https://twitter.com/noahzweben/status/2039407002913513477#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: We've made setting up http://claude.ai/code with GitHub much easier!\n\nYou can now run /web-setup in a local `claude` session to use your local GitHub credentials on the web\nWe've made setting up claude.ai/code with GitHub much easier!\n\nYou can now run /web-setup in a local `claude` session to use your local GitHub credentials on the web\n\nVideo\n  \n",
+      "date": "Tue, 31 Mar 2026 17:11:04 GMT",
+      "url": "https://twitter.com/_catwu/status/2039027712288075812#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Auto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.\nAuto mode for Claude Code is now available on the Enterprise plan and for API users.\n\nTo try it out, update your install and run claude --enable-auto-mode.\n\n\nClaude (@claudeai)\n\nNew in Claude Code: auto mode.\n\nInstead of approving every file write and bash command, or skipping permissions entirely, auto mode lets Claude make p",
+      "date": "Mon, 30 Mar 2026 19:03:59 GMT",
+      "url": "https://twitter.com/claudeai/status/2038693742094246032#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: Hope this was useful! I wanted to keep going but had to stop myself. Will post more soon.\n\nWhat are your favorite underrated Claude Code features?\nHope this was useful! I wanted to keep going but had to stop myself. Will post more soon.\n\nWhat are your favorite underrated Claude Code features?",
+      "date": "Mon, 30 Mar 2026 03:12:47 GMT",
+      "url": "https://twitter.com/bcherny/status/2038454363593822519#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: 15/ Use /voice to enable voice input\n\nFun fact: I do most of my coding by speaking to Claude, rather than typing.\n\nTo do the same, run /voice in CLI then hold the space bar, press the voice button on Desktop, or enable dictation in your iOS settings.\n15/ Use /voice to enable voice input\n\nFun fact: I do most of my coding by speaking to Claude, rather than typing.\n\nTo do the same, run /voice in CLI then hold the space bar, press the voice button on Desktop, or enable dictation in yo",
+      "date": "Mon, 30 Mar 2026 03:12:47 GMT",
+      "url": "https://twitter.com/bcherny/status/2038454362226467112#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: 14/ Use --agent to give Claude Code a custom system prompt & tools\n\nCustom agents are a powerful primitive that often gets overlooked.\n\nTo use it, just define a new agent in .claude/agents, then run claude --agent=\n\nhttps://code.claude.com/docs/en/sub-agents\n14/ Use --agent to give Claude Code a custom system prompt &amp; tools\n\nCustom agents are a powerful primitive that often gets overlooked.\n\nTo use it, just define a new agent in .claude/agents, then run claude --agent=&lt;your",
+      "date": "Mon, 30 Mar 2026 03:12:46 GMT",
+      "url": "https://twitter.com/bcherny/status/2038454360418787764#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "R to @bcherny: 13/ Use --add-dir to give Claude access to more folders\n\nWhen working across multiple repositories, I usually start Claude in one repo and use --add-dir (or /add-dir) to let Claude see the other repo. This not only tells Claude about the repo, but also gives it permissions to work in the repo.\n\nOr, add \"additionalDirectories\" to your team's settings.json to always load in additional folders when starting Claude Code.\n\nhttps://code.claude.com/docs/en/cli-reference\n13/ Use --add-dir",
+      "date": "Mon, 30 Mar 2026 03:12:46 GMT",
+      "url": "https://twitter.com/bcherny/status/2038454359047156203#m",
+      "source": "rss"
+    },
+    {
+      "username": "bcherny",
+      "content": "RT by @bcherny: Dispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatch better for coding use-case?\nDispatch can now start coding tasks with specific models.  Tell it to use a specific model in natural language.\n\nWe want to keep making Dispatch the most useful place to delegate Cowork and Code tasks. \n\nHow can we make Dispatc",
+      "date": "Mon, 30 Mar 2026 02:31:47 GMT",
+      "url": "https://twitter.com/noahzweben/status/2038444046109315553#m",
+      "source": "rss"
+    }
+  ],
   "summary": {
-    "summary": "Aucun tweet trouvé pour générer un résumé.",
+    "summary": "Erreur API OpenRouter (code 404)",
     "key_points": [],
     "trends": []
   },
   "stats": {
-    "total_tweets": 0,
-    "keywords": 3
+    "total_tweets": 20,
+    "accounts": 1
   }
 }
