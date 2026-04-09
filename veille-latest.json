@@ -1,154 +1,147 @@
 {
-  "date": "2026-04-09T09:07:23.627620",
-  "twitter": [
+  "date": "2026-04-09T09:12:56.912031",
+  "twitter": [],
+  "reddit": [],
+  "hackernews": [
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Introducing Claude Managed Agents: everything you need to build and deploy agents at scale.\n\nIt pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days.\n\nNow in public beta on the Claude Platform.\nIntroducing Claude Managed Agents: everything you need to build and deploy agents at scale.\n\nIt pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days",
-      "date": "Wed, 08 Apr 2026 17:14:32 GMT",
-      "url": "https://twitter.com/claudeai/status/2041927687460024721#m",
-      "source": "rss"
+      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+      "author": "firloop",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "points": 1098,
+      "comments": 829,
+      "created": "2026-04-03T22:55:24Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Had a great chat with @lennysan on some of the fun stuff happening at the intersection of AI and growth!\n\nThanks for having me on Lenny, had a blast :) \n\nhttps://open.spotify.com/episode/08QWCmKgDbMfpojknVW5Fa\nHad a great chat with @lennysan on some of the fun stuff happening at the intersection of AI and growth!\n\nThanks for having me on Lenny, had a blast :) \n\nopen.spotify.com/episode/08Q…\n",
-      "date": "Wed, 08 Apr 2026 03:50:21 GMT",
-      "url": "https://twitter.com/TheAmolAvasare/status/2041725306277654925#m",
-      "source": "rss"
+      "title": "Google restricting Google AI Pro/Ultra subscribers for using OpenClaw",
+      "author": "srigi",
+      "url": "https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778",
+      "points": 802,
+      "comments": 705,
+      "created": "2026-02-22T23:07:55Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: /autofix-pr now lets you kick off autofix straight from the command line.  \n\n After finishing up a PR, just run /autofix-pr. It  sends your session to the cloud so the PR autofixer has full context to address CI failures and comments.  \n\nHugely win for my productivity.\n/autofix-pr now lets you kick off autofix straight from the command line.  \n\n After finishing up a PR, just run /autofix-pr. It  sends your session to the cloud so the PR autofixer has full context to address CI fa",
-      "date": "Tue, 07 Apr 2026 23:10:52 GMT",
-      "url": "https://twitter.com/noahzweben/status/2041654973491245509#m",
-      "source": "rss"
+      "title": "OpenClaw – Moltbot Renamed Again",
+      "author": "ed",
+      "url": "https://openclaw.ai/blog/introducing-openclaw",
+      "points": 667,
+      "comments": 382,
+      "created": "2026-01-30T05:14:48Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Thank you to @AnthropicAI for sending FFmpeg patches\nThank you to @AnthropicAI for sending FFmpeg patches\n\n\nAnthropic (@AnthropicAI)\n\nIntroducing Project Glasswing: an urgent initiative to help secure the world’s most critical software.\n\nIt’s powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans.\nanthropic.com/glasswing\n\n\n\n\n— https://nitter.net/AnthropicAI/status/2041578392852517128#m\n\n",
-      "date": "Tue, 07 Apr 2026 19:15:44 GMT",
-      "url": "https://twitter.com/FFmpeg/status/2041595801483264002#m",
-      "source": "rss"
+      "title": "OpenClaw is what Apple intelligence should have been",
+      "author": "jakequist",
+      "url": "https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been",
+      "points": 518,
+      "comments": 417,
+      "created": "2026-02-05T00:28:06Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "Mythos is very powerful, and should feel terrifying. I am proud of our approach to responsibly preview it with cyber defenders, rather than generally releasing it into the wild.\n\nModel card here: https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf\nMythos is very powerful, and should feel terrifying. I am proud of our approach to responsibly preview it with cyber defenders, rather than generally releasing it into the wild.\n\nModel card here: www-cdn.anthropic.com/53566b…\n\n\nA",
-      "date": "Tue, 07 Apr 2026 19:55:41 GMT",
-      "url": "https://twitter.com/bcherny/status/2041605852382351666#m",
-      "source": "rss"
+      "title": "OpenClaw privilege escalation vulnerability",
+      "author": "kykeonaut",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+      "points": 513,
+      "comments": 256,
+      "created": "2026-04-03T16:21:32Z",
+      "keyword": "openclaw"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Introducing Project Glasswing: an urgent initiative to help secure the world’s most critical software.\n\nIt’s powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans.\nhttps://anthropic.com/glasswing\nIntroducing Project Glasswing: an urgent initiative to help secure the world’s most critical software.\n\nIt’s powered by our newest frontier model, Claude Mythos Preview, which can find software vul",
-      "date": "Tue, 07 Apr 2026 18:06:34 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2041578392852517128#m",
-      "source": "rss"
+      "title": "Claude 3.7 Sonnet and Claude Code",
+      "author": "bakugo",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "points": 2127,
+      "comments": 963,
+      "created": "2025-02-24T18:28:59Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.\nWe've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.",
-      "date": "Mon, 06 Apr 2026 22:03:13 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2041275561704931636#m",
-      "source": "rss"
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+      "author": "treexs",
+      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "points": 2093,
+      "comments": 1023,
+      "created": "2026-03-31T09:00:40Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Our run-rate revenue has surpassed $30 billion, up from $9 billion at the end of 2025, as demand for Claude continues to accelerate. This partnership gives us the compute to keep pace.\n\nRead more: https://www.anthropic.com/news/google-broadcom-partnership-compute\nOur run-rate revenue has surpassed $30 billion, up from $9 billion at the end of 2025, as demand for Claude continues to accelerate. This partnership gives us the compute to keep pace.\n\nRead more: anthropic.com/news/goog",
-      "date": "Mon, 06 Apr 2026 22:03:14 GMT",
-      "url": "https://twitter.com/AnthropicAI/status/2041275563466502560#m",
-      "source": "rss"
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "author": "alex000kim",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "points": 1374,
+      "comments": 576,
+      "created": "2026-03-31T13:04:30Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Computer use in Claude Cowork and Claude Code Desktop is now available on Windows.\nComputer use in Claude Cowork and Claude Code Desktop is now available on Windows.\n\n\nClaude (@claudeai)\n\nYou can now enable Claude to use your computer to complete tasks.\n\nIt opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk.\n\nResearch preview in Claude Cowork and Claude Code, macOS only.\n\nVideo\n  \n\n\n\n\n\n— https://nitter.net/claudeai/status/2036195",
-      "date": "Thu, 02 Apr 2026 22:46:27 GMT",
-      "url": "https://twitter.com/claudeai/status/2039836891508261106#m",
-      "source": "rss"
+      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+      "author": "StanAngeloff",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "points": 1330,
+      "comments": 741,
+      "created": "2026-04-06T13:50:35Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "R to @bcherny: We want to be intentional in managing our growth to continue to serve our customers sustainably long-term. This change is a step toward that.\nWe want to be intentional in managing our growth to continue to serve our customers sustainably long-term. This change is a step toward that.",
-      "date": "Fri, 03 Apr 2026 23:14:56 GMT",
-      "url": "https://twitter.com/bcherny/status/2040206444428189755#m",
-      "source": "rss"
+      "title": "Cowork: Claude Code for the rest of your work",
+      "author": "adocomplete",
+      "url": "https://claude.com/blog/cowork-research-preview",
+      "points": 1298,
+      "comments": 565,
+      "created": "2026-01-12T19:27:19Z",
+      "keyword": "claude code"
     },
     {
-      "username": "bcherny",
-      "content": "R to @bcherny: Subscribers get a one-time credit equal to your monthly plan cost. If you need more, you can now buy discounted usage bundles. To request a full refund, look for a link in your email tomorrow. https://support.claude.com/en/articles/13189465-logging-in-to-your-claude-account\nSubscribers get a one-time credit equal to your monthly plan cost. If you need more, you can now buy discounted usage bundles. To request a full refund, look for a link in your email tomorrow. support.claude.co",
-      "date": "Fri, 03 Apr 2026 23:14:55 GMT",
-      "url": "https://twitter.com/bcherny/status/2040206443094446558#m",
-      "source": "rss"
+      "title": "Anthropic Claude 3.5 can create icalendar files, so I did this",
+      "author": "gw5815",
+      "url": "https://gregsramblings.com/stupid-but-useful-ai-tricks-creating-calendar-entries-from-an-image-using-anthropic-claude-35",
+      "points": 367,
+      "comments": 170,
+      "created": "2024-08-25T02:27:51Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "R to @bcherny: We’ve been working hard to meet the increase in demand for Claude, and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioritizing our customers using our products and API.\nWe’ve been working hard to meet the increase in demand for Claude, and our subscriptions weren't built for the usage patterns of these third-party tools. Capacity is a resource we manage thoughtfully and we are prioriti",
-      "date": "Fri, 03 Apr 2026 23:14:55 GMT",
-      "url": "https://twitter.com/bcherny/status/2040206441756471399#m",
-      "source": "rss"
+      "title": "Meet “Claude”: Anthropic’s rival to ChatGPT",
+      "author": "goodside",
+      "url": "https://scale.com/blog/chatgpt-vs-claude",
+      "points": 188,
+      "comments": 156,
+      "created": "2023-01-18T06:28:52Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "Starting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\n\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.\nStarting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.\n\nYou can still use these tools with your Claude login via extra usage bundles (now available at a discount), or with a Claude API key.",
-      "date": "Fri, 03 Apr 2026 23:14:55 GMT",
-      "url": "https://twitter.com/bcherny/status/2040206440556826908#m",
-      "source": "rss"
+      "title": "Anthropic Introduces Claude Projects",
+      "author": "throwup238",
+      "url": "https://support.anthropic.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+      "points": 149,
+      "comments": 56,
+      "created": "2024-06-25T17:04:18Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: Incredible to see  @ForeverSolar using the Claude Agent SDK to drive permitting wins in the solar industry\n\n\"Claude Agent SDK scored 97.5% on our benchmark—we couldn't break it...Other frameworks hit 20–60% at higher cost.\"\n\nhttps://claude.com/customers/freedom-forever\n\nYay green energy!\nIncredible to see  @ForeverSolar using the Claude Agent SDK to drive permitting wins in the solar industry\n\n\"Claude Agent SDK scored 97.5% on our benchmark—we couldn't break it...Other frameworks",
-      "date": "Fri, 03 Apr 2026 21:40:28 GMT",
-      "url": "https://twitter.com/noahzweben/status/2040182670974660867#m",
-      "source": "rss"
+      "title": "Anthropic's Claude is said to improve on ChatGPT, but still has limitations",
+      "author": "metadat",
+      "url": "https://techcrunch.com/2023/01/09/anthropics-claude-improves-on-chatgpt-but-still-suffers-from-limitations/",
+      "points": 81,
+      "comments": 51,
+      "created": "2023-01-10T21:00:01Z",
+      "keyword": "anthropic claude"
     },
     {
-      "username": "bcherny",
-      "content": "RT by @bcherny: You can now set the permission mode for coding tasks in Dispatch. \n\nWe recommend using Auto mode for the safest and most seamless Dispatch experience but any of your allowed permissions are available. \n\nNote if you use Bypass Permissions you need to approve session start.\nYou can now set the permission mode for coding tasks in Dispatch. \n\nWe recommend using Auto mode for the safest and most seamless Dispatch experience but any of your allowed permissions are available. \n\nNote if ",
-      "date": "Wed, 01 Apr 2026 18:18:14 GMT",
-      "url": "https://twitter.com/noahzweben/status/2039407002913513477#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "R to @bcherny: Let us know what you think! We're actively iterating on this new mode, and can't wait to hear your feedback.\n\nhttps://code.claude.com/docs/en/fullscreen\nLet us know what you think! We're actively iterating on this new mode, and can't wait to hear your feedback.\n\ncode.claude.com/docs/en/full…\n",
-      "date": "Wed, 01 Apr 2026 19:16:10 GMT",
-      "url": "https://twitter.com/bcherny/status/2039421583178219682#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "R to @bcherny: Our new experimental NO_FLICKER renderer solves this by virtualizing the entire viewport.\n\nWe hook into keyboard and mouse events to make scrolling work, and we virtualize the viewport to move control over what is rendered into the application layer.\n\nThis approach has tradeoffs, but feels surprisingly good in practice. It is a way of living within the constraints of a terminal renderer, while giving you a richer and more performant user experience.\nOur new experimental NO_FLICKER",
-      "date": "Wed, 01 Apr 2026 19:16:10 GMT",
-      "url": "https://twitter.com/bcherny/status/2039421581907374320#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "R to @bcherny: There's a lot of tradeoffs when building for the terminal. Unlike web, mobile, and desktop, terminal have fairly restrictive instruction sets for rendering: ANSI escape codes.\n\nThere's an ANSI code for \"move cursor to (x, y)\", another for \"write 'foo'\", etc. It feels a little like writing Assembly.\n\nBecause there is no ANSI code for \"move the cursor to (x, -y)\" to repaint a row that is out of the viewport, we have to use the code for \"clear the entire screen\" -- aka, flickering.\nT",
-      "date": "Wed, 01 Apr 2026 19:16:10 GMT",
-      "url": "https://twitter.com/bcherny/status/2039421580435222576#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "R to @bcherny: There's also downsides:\n- Native cmd-f doesn't work. Instead, hit ctrl+o then / to search the transcript (or, use ctrl-r for reverse search)\n- Native copy-paste doesn't work. Instead, we copy to the clipboard by default when you make a selection. You can configure this in your settings.json to use ctrl+c instead, if you prefer.\n- Scrolling gravity varies by device, and we are in the process of tuning the physics to make it feel good on every terminal\nThere's also downsides:\n- Nati",
-      "date": "Wed, 01 Apr 2026 19:16:09 GMT",
-      "url": "https://twitter.com/bcherny/status/2039421579042681092#m",
-      "source": "rss"
-    },
-    {
-      "username": "bcherny",
-      "content": "R to @bcherny: Some of the upsides:\n- No more flickering\n- No more jumping\n- Constant memory and CPU usage as the conversation grows\n- Mouse support! You can now click to move your cursor within the input box. Some other UI elements are also clickable now.\n- Nicer selection behavior. eg. when you select code, we no longer include line numbers and UI elements in the selection\nSome of the upsides:\n- No more flickering\n- No more jumping\n- Constant memory and CPU usage as the conversation grows\n- Mo",
-      "date": "Wed, 01 Apr 2026 19:16:09 GMT",
-      "url": "https://twitter.com/bcherny/status/2039421577406918789#m",
-      "source": "rss"
+      "title": "Why Anthropic's Claude still hasn't beaten Pokémon",
+      "author": "Workaccount2",
+      "url": "https://arstechnica.com/ai/2025/03/why-anthropics-claude-still-hasnt-beaten-pokemon/",
+      "points": 53,
+      "comments": 65,
+      "created": "2025-03-24T15:07:37Z",
+      "keyword": "anthropic claude"
     }
   ],
   "summary": {
-    "summary": "Résumé IA non disponible (clé API manquante)",
+    "summary": "Erreur lors de la génération du résumé.",
     "key_points": [],
     "trends": []
-  },
-  "stats": {
-    "total_tweets": 20,
-    "accounts": 1
   }
 }
